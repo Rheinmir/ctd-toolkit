@@ -1,0 +1,258 @@
+{
+  "duplicate": {
+    "concatenate": "Nối chuỗi",
+    "concatenateDescription": "Nối các bản sao (nếu tắt tùy chọn, các item sẽ được xen kẽ)",
+    "copyDescription": "Số lượng bản sao (có thể dùng số thập phân)",
+    "description": "Công cụ đơn giản nhất để nhân đôi các phần tử trong danh sách ngay trên trình duyệt. Nhập danh sách và chọn cách nhân sao cho phù hợp. Hoàn hảo cho mở rộng dữ liệu, test, hoặc tạo pattern lặp.",
+    "duplicationOptions": "Tùy chọn nhân bản",
+    "error": "Lỗi",
+    "example1Description": "Ví dụ này minh họa cách nhân đôi danh sách các từ.",
+    "example1Title": "Nhân đôi đơn giản",
+    "example2Description": "Ví dụ này minh họa cách nhân đôi danh sách theo thứ tự đảo ngược.",
+    "example2Title": "Nhân đôi đảo ngược",
+    "example3Description": "Ví dụ này minh họa cách xen kẽ phần tử thay vì nối chuỗi.",
+    "example3Title": "Xen kẽ phần tử",
+    "example4Description": "Ví dụ này minh họa cách nhân đôi danh sách với số bản sao dạng thập phân.",
+    "example4Title": "Nhân đôi dạng thập phân",
+    "examples": {
+      "fractional": {
+        "description": "Ví dụ nhân đôi danh sách với số bản sao dạng thập phân.",
+        "title": "Nhân đôi dạng thập phân"
+      },
+      "interweave": {
+        "description": "Ví dụ xen kẽ các phần tử thay vì nối.",
+        "title": "Xen kẽ phần tử"
+      },
+      "reverse": {
+        "description": "Ví dụ nhân đôi danh sách theo thứ tự đảo ngược.",
+        "title": "Nhân đôi đảo ngược"
+      },
+      "simple": {
+        "description": "Ví dụ nhân đôi đơn giản với danh sách từ.",
+        "title": "Nhân đôi đơn giản"
+      }
+    },
+    "inputTitle": "Danh sách đầu vào",
+    "joinSeparatorDescription": "Ký tự nối danh sách đã nhân đôi",
+    "resultTitle": "Danh sách đã nhân đôi",
+    "reverse": "Đảo ngược",
+    "reverseDescription": "Đảo thứ tự các phần tử sau khi nhân đôi",
+    "shortDescription": "Nhân đôi phần tử danh sách theo tiêu chí tùy chỉnh",
+    "splitByRegex": "Tách bằng Regex",
+    "splitBySymbol": "Tách bằng ký tự",
+    "splitOptions": "Tùy chọn tách",
+    "splitSeparatorDescription": "Ký tự tách danh sách",
+    "title": "Nhân đôi",
+    "toolInfo": {
+      "description": "Công cụ này giúp bạn nhân bản các phần tử trong danh sách. Hỗ trợ số bản sao dạng số thực, nối hoặc xen kẽ phần tử, và đảo ngược kết quả. Hữu ích cho tạo pattern, sinh dữ liệu test hoặc mở rộng danh sách.",
+      "title": "Nhân bản danh sách"
+    },
+    "unknownError": "Đã xảy ra lỗi không xác định",
+    "validation": {
+      "copyMustBeNumber": "Số bản sao phải là số",
+      "copyMustBePositive": "Số bản sao phải lớn hơn 0",
+      "copyRequired": "Cần nhập số bản sao",
+      "joinSeparatorRequired": "Cần có ký tự nối",
+      "separatorRequired": "Cần có ký tự phân tách"
+    }
+  },
+  "findMostPopular": {
+    "description": "Công cụ đơn giản nhất để tìm phần tử xuất hiện nhiều nhất trong danh sách. Nhập danh sách và xem ngay các phần tử phổ biến nhất. Hoàn hảo cho phân tích dữ liệu, tìm xu hướng hoặc tìm giá trị trùng lặp.",
+    "displayFormatDescription": "Hiển thị phần tử phổ biến như thế nào?",
+    "displayOptions": {
+      "count": "Hiển thị số lần xuất hiện",
+      "percentage": "Hiển thị phần trăm",
+      "total": "Hiển thị tổng số"
+    },
+    "extractListItems": "Cách tách phần tử danh sách",
+    "ignoreItemCase": "Không phân biệt hoa/thường",
+    "ignoreItemCaseDescription": "So sánh các phần tử sau khi chuyển về dạng chữ thường.",
+    "inputTitle": "Danh sách đầu vào",
+    "itemComparison": "So sánh phần tử",
+    "outputFormat": "Định dạng kết quả",
+    "removeEmptyItems": "Bỏ phần tử rỗng",
+    "removeEmptyItemsDescription": "Không tính phần tử trống vào kết quả.",
+    "resultTitle": "Phần tử phổ biến nhất",
+    "shortDescription": "Tìm phần tử xuất hiện nhiều nhất",
+    "sortOptions": {
+      "alphabetic": "Sắp xếp theo bảng chữ cái",
+      "count": "Sắp xếp theo số lần xuất hiện"
+    },
+    "sortingMethodDescription": "Chọn phương pháp sắp xếp.",
+    "splitOperators": {
+      "regex": {
+        "description": "Tách phần tử bằng Regular Expression.",
+        "title": "Dùng Regex để tách"
+      },
+      "symbol": {
+        "description": "Tách phần tử bằng ký tự.",
+        "title": "Dùng ký tự để tách"
+      }
+    },
+    "splitSeparatorDescription": "Đặt ký tự hoặc regex phân tách.",
+    "title": "Tìm phổ biến nhất",
+    "trimItems": "Cắt khoảng trắng",
+    "trimItemsDescription": "Xóa khoảng trắng đầu/cuối trước khi so sánh."
+  },
+  "findUnique": {
+    "caseSensitiveItems": "Phân biệt hoa/thường",
+    "caseSensitiveItemsDescription": "Coi các phần tử khác nhau về chữ hoa/thường là khác nhau.",
+    "delimiterDescription": "Đặt ký tự hoặc regex phân tách.",
+    "description": "Công cụ đơn giản nhất để tìm phần tử duy nhất trong danh sách. Tự động loại bỏ trùng lặp và hiển thị giá trị duy nhất. Hoàn hảo cho làm sạch dữ liệu.",
+    "findAbsolutelyUniqueItems": "Tìm phần tử độc nhất tuyệt đối",
+    "findAbsolutelyUniqueItemsDescription": "Chỉ hiển thị phần tử xuất hiện đúng 1 lần.",
+    "inputListDelimiter": "Ký tự phân tách đầu vào",
+    "inputTitle": "Danh sách đầu vào",
+    "outputListDelimiter": "Ký tự phân tách đầu ra",
+    "resultTitle": "Phần tử duy nhất",
+    "shortDescription": "Tìm phần tử duy nhất trong danh sách",
+    "skipEmptyItems": "Bỏ phần tử rỗng",
+    "skipEmptyItemsDescription": "Không đưa phần tử rỗng vào kết quả.",
+    "title": "Tìm duy nhất",
+    "trimItems": "Xóa khoảng trắng",
+    "trimItemsDescription": "Bỏ khoảng trắng đầu/cuối khi so sánh.",
+    "uniqueItemOptions": "Tùy chọn phần tử duy nhất"
+  },
+  "group": {
+    "deleteEmptyItems": "Xóa phần tử rỗng",
+    "deleteEmptyItemsDescription": "Bỏ qua phần tử rỗng, không đưa vào nhóm.",
+    "description": "Công cụ đơn giản nhất để nhóm danh sách theo tiêu chí chỉ định. Hoàn hảo cho phân loại, tổ chức dữ liệu, dựng cấu trúc danh sách.",
+    "emptyItemsAndPadding": "Phần tử rỗng và đệm",
+    "groupNumberDescription": "Số phần tử mỗi nhóm",
+    "groupSeparatorDescription": "Ký tự phân tách nhóm",
+    "groupSizeAndSeparators": "Kích thước nhóm & phân tách",
+    "inputItemSeparator": "Ký tự phân tách đầu vào",
+    "inputTitle": "Danh sách đầu vào",
+    "itemSeparatorDescription": "Ký tự phân tách phần tử",
+    "leftWrapDescription": "Ký tự bao trái nhóm",
+    "padNonFullGroups": "Lấp nhóm chưa đủ",
+    "padNonFullGroupsDescription": "Điền ký tự tùy chọn vào nhóm chưa đủ phần tử.",
+    "paddingCharDescription": "Ký tự dùng để lấp nhóm chưa đủ.",
+    "resultTitle": "Danh sách đã nhóm",
+    "rightWrapDescription": "Ký tự bao phải nhóm",
+    "shortDescription": "Nhóm phần tử theo thuộc tính chung",
+    "splitOperators": {
+      "regex": {
+        "description": "Tách phần tử bằng regex.",
+        "title": "Tách bằng Regex"
+      },
+      "symbol": {
+        "description": "Tách phần tử bằng ký tự.",
+        "title": "Tách bằng ký tự"
+      }
+    },
+    "splitSeparatorDescription": "Đặt ký tự hoặc regex phân tách.",
+    "title": "Nhóm"
+  },
+  "reverse": {
+    "description": "Ứng dụng siêu đơn giản để đảo ngược danh sách. Hỗ trợ tách bằng ký tự hoặc regex, và tùy chỉnh separator đầu ra.",
+    "inputTitle": "Danh sách đầu vào",
+    "itemSeparator": "Ký tự phân tách",
+    "itemSeparatorDescription": "Đặt ký tự hoặc regex phân tách.",
+    "outputListOptions": "Tùy chọn danh sách đầu ra",
+    "outputSeparatorDescription": "Ký tự phân tách danh sách đầu ra.",
+    "resultTitle": "Danh sách đảo ngược",
+    "shortDescription": "Đảo ngược danh sách",
+    "splitOperators": {
+      "regex": {
+        "description": "Tách phần tử bằng regex.",
+        "title": "Dùng Regex"
+      },
+      "symbol": {
+        "description": "Tách phần tử bằng ký tự.",
+        "title": "Dùng ký tự"
+      }
+    },
+    "splitterMode": "Chế độ tách",
+    "title": "Đảo ngược",
+    "toolInfo": {
+      "description": "Công cụ này đảo ngược thứ tự phần tử trong danh sách. Danh sách được tách thành từng phần tử rồi in ra theo thứ tự từ cuối lên đầu. Hỗ trợ nhiều kiểu separator và regex.",
+      "title": "Trình đảo danh sách"
+    }
+  },
+  "rotate": {
+    "description": "Công cụ xoay danh sách đơn giản nhất. Nhập danh sách và chọn số bước xoay để dịch chuyển các phần tử. Hoàn hảo cho xử lý dữ liệu hoặc xoay vòng danh sách.",
+    "shortDescription": "Xoay danh sách theo số bước",
+    "title": "Xoay"
+  },
+  "shuffle": {
+    "delimiterDescription": "Đặt ký tự hoặc regex phân tách.",
+    "description": "Công cụ xáo trộn danh sách đơn giản nhất. Nhập danh sách và nhận danh sách đã được random hóa. Hữu ích để tạo ngẫu nhiên, test hoặc trộn thứ tự.",
+    "inputListSeparator": "Ký tự phân tách đầu vào",
+    "inputTitle": "Danh sách đầu vào",
+    "joinSeparatorDescription": "Ký tự phân tách danh sách đã xáo trộn.",
+    "outputLengthDescription": "Số lượng phần tử đầu ra",
+    "resultTitle": "Danh sách đã xáo trộn",
+    "shortDescription": "Xáo trộn danh sách",
+    "shuffledListLength": "Số lượng phần tử đã xáo trộn",
+    "shuffledListSeparator": "Ký tự phân tách đầu ra",
+    "title": "Xáo trộn"
+  },
+  "sort": {
+    "caseSensitive": "Phân biệt hoa/thường",
+    "caseSensitiveDescription": "Sắp xếp chữ hoa và chữ thường riêng biệt (chỉ hoạt động ở chế độ sắp xếp chữ cái).",
+    "description": "Công cụ đơn giản nhất để sắp xếp danh sách. Nhập danh sách và chọn kiểu sắp xếp theo tăng/giảm. Hữu ích cho tổ chức dữ liệu hoặc xử lý text.",
+    "inputItemSeparator": "Ký tự phân tách đầu vào",
+    "inputTitle": "Danh sách đầu vào",
+    "joinSeparatorDescription": "Ký tự nối các item sau khi sắp xếp.",
+    "orderDescription": "Chọn thứ tự sắp xếp.",
+    "orderOptions": {
+      "decreasing": "Giảm dần",
+      "increasing": "Tăng dần"
+    },
+    "removeDuplicates": "Xóa trùng lặp",
+    "removeDuplicatesDescription": "Xóa các phần tử trùng.",
+    "resultTitle": "Danh sách đã sắp xếp",
+    "shortDescription": "Sắp xếp danh sách theo tiêu chí",
+    "sortMethod": "Phương pháp sắp xếp",
+    "sortMethodDescription": "Chọn cách sắp xếp.",
+    "sortOptions": {
+      "alphabetic": "Sắp xếp theo chữ cái",
+      "length": "Sắp xếp theo độ dài",
+      "numeric": "Sắp xếp theo số"
+    },
+    "sortedItemProperties": "Thuộc tính phần tử sắp xếp",
+    "splitOperators": {
+      "regex": {
+        "description": "Tách bằng regex.",
+        "title": "Dùng Regex"
+      },
+      "symbol": {
+        "description": "Tách bằng ký tự.",
+        "title": "Dùng ký tự"
+      }
+    },
+    "splitSeparatorDescription": "Đặt ký tự hoặc regex phân tách.",
+    "title": "Sắp xếp"
+  },
+  "truncate": {
+    "description": "Công cụ đơn giản nhất để cắt ngắn danh sách. Nhập danh sách và chọn số phần tử tối đa cần giữ.",
+    "shortDescription": "Cắt danh sách theo số lượng chỉ định",
+    "title": "Truncate"
+  },
+  "unwrap": {
+    "description": "Công cụ đơn giản nhất để mở gói danh sách (unwrap). Nhập danh sách được bọc và chọn cách mở phẳng. Hoàn hảo cho xử lý văn bản và trích xuất dữ liệu.",
+    "shortDescription": "Mở gói danh sách",
+    "title": "Unwrap"
+  },
+  "wrap": {
+    "description": "Thêm văn bản vào trước và sau mỗi phần tử trong danh sách.",
+    "inputTitle": "Danh sách đầu vào",
+    "joinSeparatorDescription": "Ký tự nối danh sách sau khi wrap",
+    "leftTextDescription": "Văn bản thêm vào trước item",
+    "removeEmptyItems": "Loại bỏ item trống",
+    "resultTitle": "Danh sách đã wrap",
+    "rightTextDescription": "Văn bản thêm vào sau item",
+    "shortDescription": "Wrap phần tử danh sách với tiêu chí tùy chỉnh",
+    "splitByRegex": "Tách bằng Regex",
+    "splitBySymbol": "Tách bằng ký tự",
+    "splitOptions": "Tùy chọn tách",
+    "splitSeparatorDescription": "Ký tự phân tách danh sách",
+    "title": "Wrap",
+    "toolInfo": {
+      "description": "Công cụ này cho phép bạn thêm văn bản vào trước/sau mỗi phần tử trong danh sách. Hữu ích để thêm ngoặc, trích dẫn, hoặc format đặc biệt.",
+      "title": "Trình Wrap danh sách"
+    },
+    "wrapOptions": "Tùy chọn wrap"
+  }
+}

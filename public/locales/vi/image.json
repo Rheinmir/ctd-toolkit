@@ -1,0 +1,105 @@
+{
+  "changeColors": {
+    "description": "Thay đổi màu trong ảnh.",
+    "shortDescription": "Đổi màu nhanh trong ảnh",
+    "title": "Thay đổi màu ảnh"
+  },
+  "changeOpacity": {
+    "description": "Điều chỉnh độ trong suốt của ảnh một cách dễ dàng. Tải ảnh lên, dùng thanh trượt để đặt mức opacity từ 0 (trong suốt hoàn toàn) đến 1 (đục hoàn toàn), rồi tải ảnh đã chỉnh sửa xuống.",
+    "shortDescription": "Điều chỉnh độ trong suốt của ảnh",
+    "title": "Thay đổi độ trong suốt ảnh"
+  },
+  "compress": {
+    "compressedSize": "Kích thước sau nén",
+    "compressionOptions": "Tùy chọn nén",
+    "description": "Giảm kích thước tệp ảnh mà vẫn giữ chất lượng tốt.",
+    "failedToCompress": "Nén ảnh thất bại. Vui lòng thử lại.",
+    "fileSizes": "Kích thước tệp",
+    "inputTitle": "Ảnh đầu vào",
+    "maxFileSizeDescription": "Kích thước tệp tối đa (MB)",
+    "originalSize": "Kích thước gốc",
+    "qualityDescription": "Phần trăm chất lượng ảnh (thấp hơn thì tệp nhỏ hơn)",
+    "resultTitle": "Ảnh đã nén",
+    "shortDescription": "Nén ảnh để giảm dung lượng mà vẫn giữ chất lượng chấp nhận được.",
+    "title": "Nén ảnh"
+  },
+  "compressPng": {
+    "description": "Chương trình nén ảnh PNG. Khi bạn dán hoặc tải ảnh PNG vào khu vực đầu vào, công cụ sẽ tự nén và hiển thị kết quả ở khu vực đầu ra. Trong phần tùy chọn, bạn có thể điều chỉnh mức độ nén và xem kích thước tệp cũ/mới.",
+    "shortDescription": "Nén PNG nhanh chóng",
+    "title": "Nén PNG"
+  },
+  "convertJgpToPng": {
+    "description": "Chuyển JPG sang PNG nhanh chóng. Chỉ cần tải ảnh JPG vào.",
+    "shortDescription": "Chuyển JPG sang PNG nhanh",
+    "title": "Chuyển JPG sang PNG"
+  },
+  "convertToJpg": {
+    "description": "Chuyển đổi nhiều định dạng ảnh (PNG, GIF, TIF, PSD, SVG, WEBP, HEIC, RAW) sang JPG với tùy chỉnh chất lượng và màu nền.",
+    "shortDescription": "Chuyển ảnh sang JPG với tùy chỉnh chất lượng",
+    "title": "Chuyển ảnh sang JPG"
+  },
+  "createTransparent": {
+    "description": "Tạo ảnh nền trong suốt.",
+    "shortDescription": "Tạo ảnh nền trong suốt nhanh chóng",
+    "title": "Tạo PNG trong suốt"
+  },
+  "crop": {
+    "description": "Cắt ảnh để loại bỏ phần không cần thiết.",
+    "inputTitle": "Ảnh đầu vào",
+    "resultTitle": "Ảnh đã cắt",
+    "shortDescription": "Cắt ảnh nhanh chóng.",
+    "title": "Cắt ảnh"
+  },
+  "editor": {
+    "description": "Trình chỉnh sửa ảnh nâng cao với các công cụ cắt, xoay, chỉnh màu, ghi chú, thêm watermark. Chỉnh sửa ảnh chuyên nghiệp ngay trong trình duyệt.",
+    "shortDescription": "Chỉnh sửa ảnh với bộ công cụ nâng cao",
+    "title": "Trình chỉnh sửa ảnh"
+  },
+  "imageToText": {
+    "description": "Trích xuất chữ từ ảnh (JPG, PNG) bằng OCR.",
+    "shortDescription": "Trích xuất chữ từ ảnh bằng OCR.",
+    "title": "Ảnh sang văn bản (OCR)"
+  },
+  "qrCode": {
+    "description": "Tạo mã QR cho nhiều loại dữ liệu: URL, Text, Email, Phone, SMS, WiFi, vCard và nhiều hơn nữa.",
+    "shortDescription": "Tạo mã QR tùy chỉnh cho nhiều loại dữ liệu.",
+    "title": "Trình tạo QR Code"
+  },
+  "removeBackground": {
+    "description": "Tự động xóa nền khỏi ảnh.",
+    "shortDescription": "Tự động xóa nền ảnh",
+    "title": "Xóa nền ảnh"
+  },
+  "resize": {
+    "description": "Thay đổi kích thước ảnh.",
+    "dimensionType": "Loại kích thước",
+    "heightDescription": "Chiều cao (pixel)",
+    "inputTitle": "Ảnh đầu vào",
+    "maintainAspectRatio": "Giữ nguyên tỉ lệ",
+    "maintainAspectRatioDescription": "Giữ nguyên tỉ lệ gốc của ảnh.",
+    "percentage": "Phần trăm",
+    "percentageDescription": "Phần trăm kích thước gốc (ví dụ: 50 là còn một nửa, 200 là gấp đôi)",
+    "resizeByPercentage": "Thay đổi kích thước theo phần trăm",
+    "resizeByPercentageDescription": "Thay đổi kích thước dựa trên phần trăm của ảnh gốc.",
+    "resizeByPixels": "Thay đổi kích thước theo pixel",
+    "resizeByPixelsDescription": "Thay đổi kích thước bằng cách chỉ định pixel.",
+    "resizeMethod": "Phương pháp thay đổi kích thước",
+    "resultTitle": "Ảnh đã thay đổi kích thước",
+    "setHeight": "Đặt chiều cao",
+    "setHeightDescription": "Nhập chiều cao theo pixel và tự tính chiều rộng theo tỉ lệ.",
+    "setWidth": "Đặt chiều rộng",
+    "setWidthDescription": "Nhập chiều rộng theo pixel và tự tính chiều cao theo tỉ lệ.",
+    "shortDescription": "Thay đổi kích thước ảnh dễ dàng.",
+    "title": "Thay đổi kích thước ảnh",
+    "toolInfo": {
+      "description": "Công cụ cho phép thay đổi kích thước ảnh JPG, PNG, SVG hoặc GIF. Có thể đặt kích thước theo pixel hoặc phần trăm, kèm tùy chọn giữ nguyên tỉ lệ.",
+      "title": "Resize Image"
+    },
+    "widthDescription": "Chiều rộng (pixel)"
+  },
+  "rotate": {
+    "description": "Xoay ảnh theo góc mong muốn.",
+    "shortDescription": "Xoay ảnh dễ dàng.",
+    "title": "Xoay ảnh"
+  }
+}

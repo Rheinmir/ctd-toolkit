@@ -1,0 +1,120 @@
+{
+  "changeSpeed": {
+    "defaultMultiplier": "Bội số mặc định: 2 nghĩa là nhanh gấp 2 lần",
+    "description": "Thay đổi tốc độ phát lại của video. Tăng hoặc giảm tốc độ nhưng vẫn giữ đồng bộ âm thanh. Hỗ trợ nhiều mức tốc độ và các định dạng video phổ biến.",
+    "inputTitle": "Video đầu vào",
+    "newVideoSpeed": "Tốc độ video mới",
+    "resultTitle": "Video đã chỉnh tốc độ",
+    "settingSpeed": "Thiết lập tốc độ",
+    "shortDescription": "Thay đổi tốc độ phát video",
+    "title": "Thay đổi tốc độ video",
+    "toolInfo": {
+      "title": "Công cụ {{title}} là gì?"
+    }
+  },
+  "compress": {
+    "default": "Mặc định",
+    "description": "Nén video bằng cách giảm độ phân giải như 240p, 480p, 720p,... giúp giảm dung lượng nhưng vẫn giữ được chất lượng chấp nhận được. Hỗ trợ MP4, WebM, OGG.",
+    "inputTitle": "Video đầu vào",
+    "loadingText": "Đang nén video...",
+    "lossless": "Không giảm chất lượng",
+    "quality": "Chất lượng (CRF)",
+    "resolution": "Độ phân giải",
+    "resultTitle": "Video đã nén",
+    "shortDescription": "Nén video bằng cách giảm độ phân giải",
+    "title": "Nén Video",
+    "worst": "Kém nhất"
+  },
+  "cropVideo": {
+    "cropCoordinates": "Tọa độ cắt",
+    "croppingVideo": "Đang cắt video",
+    "description": "Cắt video để loại bỏ vùng không mong muốn.",
+    "errorBeyondHeight": "Vùng cắt vượt quá chiều cao video ({{height}}px)",
+    "errorBeyondWidth": "Vùng cắt vượt quá chiều rộng video ({{width}}px)",
+    "errorCroppingVideo": "Lỗi khi cắt video. Vui lòng kiểm tra tham số và tệp video.",
+    "errorLoadingDimensions": "Không tải được kích thước video",
+    "errorNonNegativeCoordinates": "Giá trị X và Y phải không âm",
+    "errorPositiveDimensions": "Chiều rộng và chiều cao phải lớn hơn 0",
+    "height": "Chiều cao",
+    "inputTitle": "Video đầu vào",
+    "loadVideoForDimensions": "Tải video để xem kích thước",
+    "longDescription": "Công cụ này cho phép bạn cắt video để loại bỏ vùng thừa hoặc tập trung vào một phần nội dung nhất định. Hữu ích để loại bỏ viền đen, chỉnh tỷ lệ khung hình, hoặc nhấn mạnh nội dung quan trọng.",
+    "resultTitle": "Video đã cắt",
+    "shortDescription": "Cắt video để loại bỏ vùng thừa",
+    "title": "Cắt Video",
+    "toolInfo": {
+      "description": "Bạn có thể đặt tọa độ X, Y và kích thước Width, Height để cắt vùng mong muốn.",
+      "title": "Cắt Video"
+    },
+    "videoDimensions": "Kích thước video: {{width}} × {{height}} px",
+    "videoInformation": "Thông tin video",
+    "width": "Chiều rộng",
+    "xCoordinate": "X (bên trái)",
+    "yCoordinate": "Y (bên trên)"
+  },
+  "flip": {
+    "description": "Lật video theo chiều ngang hoặc chiều dọc. Hữu ích để tạo hiệu ứng hoặc sửa lỗi hướng video.",
+    "flippingVideo": "Đang lật video",
+    "horizontalLabel": "Ngang (Gương)",
+    "inputTitle": "Video đầu vào",
+    "orientation": "Hướng lật",
+    "resultTitle": "Video đã lật",
+    "shortDescription": "Lật video ngang hoặc dọc",
+    "title": "Lật Video",
+    "verticalLabel": "Dọc (Lật ngược)"
+  },
+  "gif": {
+    "changeSpeed": {
+      "description": "Thay đổi tốc độ phát GIF. Tăng hoặc giảm tốc độ mà vẫn giữ chuyển động mượt mà.",
+      "shortDescription": "Thay đổi tốc độ GIF",
+      "title": "Thay đổi tốc độ GIF"
+    }
+  },
+  "loop": {
+    "description": "Tạo video lặp lại bằng cách ghép video gốc nhiều lần.",
+    "inputTitle": "Video đầu vào",
+    "loopingVideo": "Đang tạo video lặp",
+    "loops": "Số lần lặp",
+    "numberOfLoops": "Số vòng lặp",
+    "resultTitle": "Video đã lặp",
+    "shortDescription": "Tạo video lặp nhiều lần",
+    "title": "Lặp Video",
+    "toolInfo": {
+      "description": "Công cụ cho phép lặp lại video nhiều lần liên tiếp.",
+      "title": "Công cụ {{title}} là gì?"
+    }
+  },
+  "mergeVideo": {
+    "description": "Ghép nhiều video thành một video duy nhất.",
+    "longDescription": "Cho phép bạn nối nhiều video theo thứ tự mong muốn để tạo thành một video hoàn chỉnh. Hữu ích để ghép cảnh quay hoặc nối nhiều đoạn lại với nhau.",
+    "shortDescription": "Ghép video dễ dàng",
+    "title": "Ghép Video"
+  },
+  "rotate": {
+    "180Degrees": "180° (Lật ngược)",
+    "270Degrees": "270° (90° ngược chiều kim đồng hồ)",
+    "90Degrees": "90° theo chiều kim đồng hồ",
+    "description": "Xoay video 90°, 180°, hoặc 270° để chỉnh hướng hoặc tạo hiệu ứng đặc biệt.",
+    "inputTitle": "Video đầu vào",
+    "resultTitle": "Video đã xoay",
+    "rotatingVideo": "Đang xoay video",
+    "rotation": "Góc xoay",
+    "shortDescription": "Xoay video theo góc",
+    "title": "Xoay Video"
+  },
+  "trim": {
+    "description": "Cắt video theo thời gian bắt đầu và kết thúc. Loại bỏ phần thừa đầu hoặc cuối video.",
+    "endTime": "Thời gian kết thúc",
+    "inputTitle": "Video đầu vào",
+    "resultTitle": "Video đã cắt",
+    "shortDescription": "Cắt bỏ phần không mong muốn",
+    "startTime": "Thời gian bắt đầu",
+    "timestamps": "Mốc thời gian",
+    "title": "Cắt Video"
+  },
+  "videoToGif": {
+    "description": "Chuyển video sang GIF động. Có thể chọn khoảng thời gian để tạo GIF.",
+    "shortDescription": "Chuyển video sang GIF",
+    "title": "Video sang GIF"
+  }
+}

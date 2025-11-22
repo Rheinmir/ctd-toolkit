@@ -1,0 +1,120 @@
+{
+  "changeCsvSeparator": {
+    "description": "Thay đổi ký tự phân tách (delimiter) trong tệp CSV. Chuyển đổi giữa nhiều dạng CSV khác nhau như dấu phẩy, dấu chấm phẩy, tab hoặc ký tự tùy chỉnh.",
+    "shortDescription": "Thay đổi dấu phân tách CSV",
+    "title": "Thay đổi dấu phân tách CSV"
+  },
+  "csvRowsToColumns": {
+    "description": "Công cụ này chuyển các dòng (rows) của tệp CSV thành các cột (columns). Nó lấy từng dòng theo chiều ngang, xoay 90 độ và xuất ra theo dạng cột liên tiếp, phân tách bằng dấu phẩy.",
+    "longDescription": "Công cụ này chuyển các dòng của CSV thành các cột. Ví dụ: nếu dữ liệu CSV đầu vào có 6 dòng, đầu ra sẽ có 6 cột và các giá trị từ dòng sẽ được sắp từ trên xuống dưới. Trong CSV chuẩn, mỗi dòng có cùng số lượng giá trị. Tuy nhiên, nếu có dòng thiếu dữ liệu, công cụ có thể tự sửa bằng cách thêm phần tử trống hoặc ký tự tùy chọn như \"missing\", \"?\", hoặc \"x\". Công cụ cũng tự loại bỏ các dòng thừa như dòng rỗng và dòng comment. Bạn có thể chỉ định ký tự bắt đầu dòng comment, thường là \"#\" hoặc \"//\".",
+    "shortDescription": "Chuyển dòng CSV thành cột.",
+    "title": "Chuyển dòng CSV thành cột"
+  },
+  "csvToJson": {
+    "columnSeparator": "Ký tự phân tách cột (ví dụ: , ; \\t)",
+    "commentSymbol": "Ký tự comment (ví dụ: #)",
+    "conversionOptions": "Tùy chọn chuyển đổi",
+    "description": "Chuyển CSV sang JSON với các tùy chọn linh hoạt về dấu phân tách, ký tự bao quanh, định dạng đầu ra. Hỗ trợ header, comment và tự nhận dạng kiểu dữ liệu.",
+    "dynamicTypes": "Tự nhận dạng kiểu dữ liệu",
+    "dynamicTypesDescription": "Tự động chuyển đổi số và giá trị boolean",
+    "error": "Lỗi",
+    "errorParsing": "Lỗi phân tích CSV: {{error}}",
+    "fieldQuote": "Ký tự bao quanh trường (ví dụ: \")",
+    "inputCsvFormat": "Định dạng CSV đầu vào",
+    "inputTitle": "CSV đầu vào",
+    "invalidCsvFormat": "CSV không hợp lệ",
+    "resultTitle": "JSON đầu ra",
+    "shortDescription": "Chuyển CSV sang JSON.",
+    "skipEmptyLines": "Bỏ dòng trống",
+    "skipEmptyLinesDescription": "Bỏ qua các dòng trống trong CSV",
+    "title": "Chuyển CSV sang JSON",
+    "toolInfo": {
+      "description": "Công cụ này chuyển đổi CSV (Comma Separated Values) sang JSON. Hỗ trợ nhiều định dạng CSV với khả năng tùy chỉnh delimiter, ký tự bao quanh, ký tự comment. Có thể dùng dòng đầu làm header và tự chuyển kiểu dữ liệu.",
+      "title": "CSV to JSON là gì?"
+    },
+    "useHeaders": "Sử dụng header",
+    "useHeadersDescription": "Dùng dòng đầu tiên làm tiêu đề"
+  },
+  "csvToTsv": {
+    "description": "Tải lên CSV và công cụ sẽ tự chuyển thành TSV. Bạn có thể tùy chỉnh delimiter, ký tự bao quanh và ký tự comment, đồng thời chọn giữ hoặc bỏ header.",
+    "longDescription": "Công cụ này chuyển CSV sang TSV. CSV dùng dấu phẩy để phân tách, còn TSV dùng tab. Hỗ trợ nhiều định dạng CSV tùy chỉnh và có thể bỏ dòng thừa.",
+    "shortDescription": "Chuyển CSV sang TSV.",
+    "title": "Chuyển CSV sang TSV"
+  },
+  "csvToXml": {
+    "description": "Chuyển tệp CSV sang XML với các tùy chỉnh định dạng.",
+    "shortDescription": "Chuyển CSV sang XML.",
+    "title": "Chuyển CSV sang XML"
+  },
+  "csvToYaml": {
+    "description": "Tải CSV vào và công cụ sẽ tự chuyển sang YAML. Bạn có thể chọn delimiter, ký tự bao quanh, ký tự comment và chọn kiểu YAML có header hoặc không.",
+    "longDescription": "Công cụ này chuyển CSV sang YAML. CSV là dạng dữ liệu bảng đơn giản, còn YAML hỗ trợ cấu trúc phức tạp và dễ đọc hơn. Hỗ trợ delimiter tùy chỉnh, ký tự bao quanh, bỏ dòng comment, chọn kiểu YAML dạng danh sách hoặc đối tượng dựa trên header. Có thể tùy chỉnh số khoảng trắng thụt dòng.",
+    "shortDescription": "Chuyển CSV sang YAML nhanh chóng.",
+    "title": "Chuyển CSV sang YAML"
+  },
+  "findIncompleteCsvRecords": {
+    "checkingOptions": "Tùy chọn kiểm tra",
+    "commentCharacterDescription": "Nhập ký tự bắt đầu dòng comment. Các dòng này sẽ bị bỏ qua.",
+    "csvInputOptions": "Tùy chọn CSV đầu vào",
+    "csvSeparatorDescription": "Nhập ký tự phân tách cột của CSV.",
+    "deleteLinesWithNoData": "Xóa dòng không có dữ liệu",
+    "deleteLinesWithNoDataDescription": "Xóa các dòng trống trong CSV.",
+    "description": "Chỉ cần tải CSV lên và công cụ sẽ kiểm tra các dòng hoặc cột bị thiếu dữ liệu. Có thể tùy chỉnh delimiter, ký tự bao quanh, ký tự comment, bật/tắt phát hiện giá trị trống và giới hạn số lượng thông báo.",
+    "findEmptyValues": "Tìm giá trị trống",
+    "findEmptyValuesDescription": "Hiển thị các trường có giá trị rỗng (không phải thiếu trường).",
+    "inputTitle": "CSV đầu vào",
+    "limitNumberOfMessages": "Giới hạn số thông báo",
+    "messageLimitDescription": "Giới hạn số lượng thông báo hiển thị.",
+    "quoteCharacterDescription": "Ký tự bao quanh các trường trong CSV.",
+    "resultTitle": "Trạng thái CSV",
+    "shortDescription": "Tìm dòng/cột bị thiếu dữ liệu trong CSV.",
+    "title": "Tìm bản ghi CSV không đầy đủ",
+    "toolInfo": {
+      "title": "{{title}} là gì?"
+    }
+  },
+  "insertCsvColumns": {
+    "appendColumns": "Thêm cột ở cuối",
+    "commentCharacterDescription": "Nhập ký tự bắt đầu dòng comment. Các dòng này sẽ bị bỏ qua.",
+    "csvOptions": "Tùy chọn CSV",
+    "csvSeparator": "Dấu phân tách CSV",
+    "csvToInsert": "CSV cần chèn",
+    "csvToInsertDescription": "Nhập một hoặc nhiều cột cần chèn. Dấu phân tách phải giống với CSV đầu vào. Dòng trống sẽ bị bỏ qua.",
+    "customFillDescription": "Nếu CSV thiếu dữ liệu, có muốn tự thêm trường trống hoặc ký tự tùy chọn không?",
+    "customFillValueDescription": "Ký tự dùng để điền vào trường bị thiếu (chỉ áp dụng cho chế độ 'Giá trị tùy chọn').",
+    "customPosition": "Vị trí tùy chỉnh",
+    "customPositionOptionsDescription": "Chọn kiểu chèn cột vào CSV.",
+    "description": "Chèn cột mới vào CSV tại vị trí mong muốn.",
+    "fillWithCustomValues": "Điền bằng giá trị tùy chọn",
+    "fillWithEmptyValues": "Điền bằng giá trị trống",
+    "headerName": "Tên header",
+    "headerNameDescription": "Tên header của cột bạn muốn chèn phía sau.",
+    "inputTitle": "CSV đầu vào",
+    "insertingPositionDescription": "Chọn vị trí muốn chèn cột.",
+    "position": "Vị trí",
+    "positionOptions": "Tùy chọn vị trí",
+    "prependColumns": "Thêm cột ở đầu",
+    "quoteCharDescription": "Ký tự bao quanh trường CSV.",
+    "resultTitle": "CSV đầu ra",
+    "rowNumberDescription": "Số thứ tự cột bạn muốn chèn phía sau.",
+    "separatorDescription": "Dấu phân tách CSV.",
+    "shortDescription": "Nhanh chóng chèn một hoặc nhiều cột vào bất cứ đâu trong CSV.",
+    "title": "Chèn cột vào CSV",
+    "toolInfo": {
+      "description": "Công cụ này cho phép bạn chèn thêm cột vào CSV ở vị trí mong muốn — đầu, cuối hoặc vị trí tùy chỉnh dựa trên header hoặc số thứ tự.",
+      "title": "Insert CSV Columns"
+    }
+  },
+  "swapCsvColumns": {
+    "description": "Tải CSV lên, chỉ định hai cột cần hoán đổi, và công cụ sẽ đổi vị trí của chúng. Có thể hoán đổi bằng số thứ tự hoặc tên cột, đồng thời sửa dữ liệu thiếu và loại bỏ dòng trống/dòng comment.",
+    "longDescription": "Công cụ này hoán đổi vị trí các cột trong CSV. Điều này giúp dữ liệu dễ đọc hơn hoặc thuận tiện hơn khi phân tích. Ví dụ: bạn có thể đổi cột đầu với cột cuối, hoặc đổi cột 2 và cột 3. Hỗ trợ hoán đổi bằng vị trí hoặc tên cột.",
+    "shortDescription": "Hoán đổi cột CSV.",
+    "title": "Hoán đổi cột CSV"
+  },
+  "transposeCsv": {
+    "description": "Tải CSV lên và công cụ sẽ tự transpose — chuyển đổi hàng thành cột và ngược lại. Có thể bỏ dòng comment và tùy chọn ký tự thay thế giá trị thiếu.",
+    "longDescription": "Công cụ này transpose CSV bằng cách lật ma trận qua đường chéo chính. Nếu CSV có 4 cột và 3 dòng, sau khi transpose sẽ thành 3 cột và 4 dòng. Công cụ cũng tự loại bỏ dòng rỗng, dòng comment, và điền dữ liệu thiếu bằng giá trị trống hoặc ký tự tùy chọn.",
+    "shortDescription": "Transpose tệp CSV.",
+    "title": "Transpose CSV"
+  }
+}

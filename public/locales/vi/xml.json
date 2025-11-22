@@ -1,0 +1,38 @@
+{
+  "xmlBeautifier": {
+    "description": "Định dạng XML với thụt lề và khoảng cách hợp lý.",
+    "indentation": "Thụt lề",
+    "inputTitle": "XML đầu vào",
+    "resultTitle": "XML đã làm đẹp",
+    "shortDescription": "Định dạng và làm đẹp mã XML",
+    "title": "Trình Làm Đẹp XML",
+    "toolInfo": {
+      "description": "Công cụ này giúp bạn định dạng dữ liệu XML với thụt lề và khoảng cách chuẩn, giúp mã dễ đọc và dễ làm việc hơn.",
+      "title": "Trình Làm Đẹp XML"
+    },
+    "useSpaces": "Dùng khoảng trắng",
+    "useSpacesDescription": "Thụt lề bằng khoảng trắng",
+    "useTabs": "Dùng tab",
+    "useTabsDescription": "Thụt lề bằng tab"
+  },
+  "xmlValidator": {
+    "description": "Kiểm tra cú pháp và cấu trúc XML.",
+    "placeholder": "Dán hoặc nhập XML tại đây...",
+    "shortDescription": "Xác thực mã XML",
+    "title": "Trình Kiểm Tra XML",
+    "toolInfo": {
+      "description": "Công cụ này cho phép bạn kiểm tra cú pháp và cấu trúc XML. Nó phát hiện XML không hợp lệ và cung cấp thông báo lỗi chi tiết.",
+      "title": "Trình Kiểm Tra XML"
+    }
+  },
+  "xmlViewer": {
+    "description": "Xem và khám phá cấu trúc XML theo dạng cây.",
+    "inputTitle": "XML đầu vào",
+    "resultTitle": "Dạng cây XML",
+    "title": "Trình Xem XML",
+    "toolInfo": {
+      "description": "Công cụ này cho phép bạn xem dữ liệu XML dưới dạng cây phân cấp, giúp dễ dàng khám phá và hiểu cấu trúc tài liệu XML.",
+      "title": "Trình Xem XML"
+    }
+  }
+}

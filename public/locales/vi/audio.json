@@ -1,0 +1,61 @@
+{
+  "changeSpeed": {
+    "description": "Thay đổi tốc độ phát của file âm thanh. Tăng hoặc giảm tốc độ nhưng vẫn giữ nguyên cao độ.",
+    "inputTitle": "File âm thanh đầu vào",
+    "newAudioSpeed": "Tốc độ âm thanh mới",
+    "outputFormat": "Định dạng đầu ra",
+    "resultTitle": "File âm thanh đã chỉnh sửa",
+    "settingSpeed": "Thiết lập tốc độ",
+    "shortDescription": "Thay đổi tốc độ phát của file âm thanh",
+    "speedDescription": "Mặc định: 2 nghĩa là nhanh gấp 2 lần",
+    "title": "Thay đổi tốc độ âm thanh",
+    "toolInfo": {
+      "title": "{{title}} là gì?"
+    }
+  },
+  "extractAudio": {
+    "description": "Tách track âm thanh từ file video.",
+    "extractingAudio": "Đang tách âm thanh",
+    "inputTitle": "File video đầu vào",
+    "outputFormat": "Định dạng đầu ra",
+    "outputFormatDescription": "Chọn định dạng cho file âm thanh sau khi tách.",
+    "resultTitle": "File âm thanh đã tách",
+    "shortDescription": "Tách âm thanh từ video (MP4, MOV, v.v.) sang AAC, MP3 hoặc WAV.",
+    "title": "Tách âm thanh từ video",
+    "toolInfo": {
+      "description": "Công cụ này cho phép bạn tách track âm thanh từ các file video. Bạn có thể chọn các định dạng âm thanh như AAC, MP3 và WAV.",
+      "title": "{{title}} là gì?"
+    }
+  },
+  "mergeAudio": {
+    "description": "Gộp nhiều file âm thanh thành một file bằng cách nối chúng liên tiếp.",
+    "inputTitle": "Các file âm thanh đầu vào",
+    "longDescription": "Công cụ này cho phép bạn gộp nhiều file âm thanh thành một file bằng cách nối lần lượt theo thứ tự bạn tải lên. Rất phù hợp để ghép các đoạn podcast, track nhạc hoặc bất kỳ file âm thanh nào cần được nối lại. Hỗ trợ nhiều định dạng âm thanh như MP3, AAC và WAV.",
+    "mergingAudio": "Đang gộp âm thanh",
+    "outputFormat": "Định dạng đầu ra",
+    "resultTitle": "File âm thanh đã gộp",
+    "shortDescription": "Gộp nhiều file âm thanh thành một (MP3, AAC, WAV).",
+    "title": "Gộp file âm thanh",
+    "toolInfo": {
+      "title": "{{title}} là gì?"
+    }
+  },
+  "trim": {
+    "description": "Cắt, tỉa file âm thanh để lấy đoạn mong muốn bằng cách chỉ định thời gian bắt đầu và kết thúc.",
+    "endTime": "Thời gian kết thúc",
+    "endTimeDescription": "Thời gian kết thúc theo định dạng HH:MM:SS (ví dụ: 00:01:30)",
+    "inputTitle": "File âm thanh đầu vào",
+    "longDescription": "Công cụ này cho phép bạn cắt, tỉa file âm thanh bằng cách chỉ định thời gian bắt đầu và kết thúc. Bạn có thể trích xuất các đoạn cụ thể từ file dài, loại bỏ phần không mong muốn hoặc tạo các đoạn clip ngắn. Hỗ trợ nhiều định dạng âm thanh như MP3, AAC và WAV. Phù hợp cho chỉnh sửa podcast, sản xuất âm nhạc hoặc mọi nhu cầu chỉnh sửa âm thanh.",
+    "outputFormat": "Định dạng đầu ra",
+    "resultTitle": "File âm thanh đã cắt",
+    "shortDescription": "Cắt file âm thanh theo khoảng thời gian (MP3, AAC, WAV).",
+    "startTime": "Thời gian bắt đầu",
+    "startTimeDescription": "Thời gian bắt đầu theo định dạng HH:MM:SS (ví dụ: 00:00:30)",
+    "timeSettings": "Thiết lập thời gian",
+    "title": "Cắt file âm thanh",
+    "toolInfo": {
+      "title": "{{title}} là gì?"
+    },
+    "trimmingAudio": "Đang cắt âm thanh"
+  }
+}

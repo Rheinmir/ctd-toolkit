@@ -1,0 +1,192 @@
+{
+  "arithmeticSequence": {
+    "commonDifferenceDescription": "Hiệu số giữa các số hạng (d)",
+    "description": "Tạo dãy số cấp số cộng với các tham số tùy chỉnh.",
+    "firstTermDescription": "Số hạng đầu tiên của dãy (a₁)",
+    "numberOfTermsDescription": "Số lượng số hạng cần tạo (n)",
+    "outputFormat": "Định dạng đầu ra",
+    "resultTitle": "Dãy số đã tạo",
+    "separatorDescription": "Ký tự phân tách giữa các số hạng",
+    "sequenceParameters": "Tham số dãy số",
+    "shortDescription": "Tạo dãy số cấp số cộng",
+    "title": "Cấp số cộng",
+    "toolInfo": {
+      "description": "Cấp số cộng là dãy số mà hiệu giữa hai số hạng liên tiếp luôn bằng nhau. Hiệu số này được gọi là d. Biết số hạng đầu (a₁) và hiệu số (d), mỗi số hạng tiếp theo được tính bằng cách cộng d vào số hạng trước đó.",
+      "title": "Cấp số cộng là gì?"
+    }
+  },
+  "generate": {
+    "arithmeticSequenceOption": "Tùy chọn cấp số cộng",
+    "description": "Tạo dãy số với các tham số tùy chỉnh.",
+    "numberOfElementsDescription": "Số lượng phần tử trong dãy.",
+    "resultTitle": "Các số đã tạo",
+    "separator": "Ký tự phân tách",
+    "separatorDescription": "Phân tách các phần tử trong dãy bằng ký tự này.",
+    "shortDescription": "Tạo số ngẫu nhiên trong khoảng tùy chọn",
+    "startSequenceDescription": "Bắt đầu dãy số từ giá trị này.",
+    "stepDescription": "Tăng mỗi số bởi giá trị này",
+    "title": "Tạo dãy số",
+    "toolInfo": {
+      "description": "Công cụ này cho phép tạo dãy số với tham số tùy chỉnh: giá trị bắt đầu, bước nhảy và số lượng phần tử.",
+      "title": "Tạo số"
+    }
+  },
+  "ohmsLaw": {
+    "description": "Tính điện áp, dòng điện và điện trở",
+    "longDescription": "Máy tính này áp dụng Định luật Ohm (V = I × R) để xác định một trong ba đại lượng điện khi biết hai đại lượng còn lại. Định luật Ohm là nguyên lý cơ bản mô tả quan hệ giữa điện áp (V), dòng điện (I) và điện trở (R). Công cụ này hữu ích cho người làm điện tử, kỹ sư điện và sinh viên khi cần tính nhanh các giá trị trong mạch.",
+    "shortDescription": "Tính V – I – R theo định luật Ohm",
+    "title": "Định luật Ohm"
+  },
+  "randomNumberGenerator": {
+    "description": "Tạo số ngẫu nhiên trong một khoảng xác định với nhiều tùy chọn.",
+    "error": {
+      "generationFailed": "Không thể tạo số ngẫu nhiên. Vui lòng kiểm tra tham số."
+    },
+    "info": {
+      "description": "Bộ tạo số ngẫu nhiên tạo ra các số không thể đoán trong phạm vi được chọn. Công cụ sử dụng thuật toán sinh số ngẫu nhiên an toàn. Hữu ích cho mô phỏng, trò chơi, thống kê và kiểm thử.",
+      "title": "Random Number Generator là gì?"
+    },
+    "longDescription": "Tạo số ngẫu nhiên trong khoảng tùy chỉnh, hỗ trợ số nguyên hoặc số thập phân, cho phép hoặc không cho phép trùng lặp, và sắp xếp kết quả.",
+    "options": {
+      "generation": {
+        "allowDecimals": {
+          "description": "Tạo số thập phân thay vì số nguyên",
+          "title": "Cho phép số thập phân"
+        },
+        "allowDuplicates": {
+          "description": "Cho phép số bị trùng",
+          "title": "Cho phép trùng lặp"
+        },
+        "countDescription": "Số lượng số cần tạo (1–10.000)",
+        "sortResults": {
+          "description": "Sắp xếp kết quả theo thứ tự tăng dần",
+          "title": "Sắp xếp kết quả"
+        },
+        "title": "Tùy chọn tạo số"
+      },
+      "output": {
+        "separatorDescription": "Ký tự phân tách các số",
+        "title": "Cài đặt đầu ra"
+      },
+      "range": {
+        "maxDescription": "Giá trị tối đa (bao gồm)",
+        "minDescription": "Giá trị tối thiểu (bao gồm)",
+        "title": "Phạm vi số"
+      }
+    },
+    "result": {
+      "count": "Số lượng",
+      "hasDuplicates": "Có số trùng",
+      "isSorted": "Đã sắp xếp",
+      "range": "Phạm vi",
+      "title": "Các số ngẫu nhiên đã tạo"
+    },
+    "shortDescription": "Tạo số ngẫu nhiên theo phạm vi tùy chỉnh",
+    "title": "Bộ tạo số ngẫu nhiên"
+  },
+  "randomPortGenerator": {
+    "description": "Tạo các cổng mạng ngẫu nhiên trong phạm vi tùy chọn.",
+    "error": {
+      "generationFailed": "Không thể tạo cổng ngẫu nhiên. Vui lòng kiểm tra tham số."
+    },
+    "info": {
+      "description": "Bộ tạo cổng ngẫu nhiên tạo ra các số cổng mạng không thể đoán. Công cụ tuân theo tiêu chuẩn phân loại cổng IANA và hiển thị thông tin dịch vụ của một số cổng phổ biến. Hữu ích cho lập trình, kiểm thử và cấu hình mạng.",
+      "title": "Random Port Generator là gì?"
+    },
+    "longDescription": "Tạo cổng mạng ngẫu nhiên theo các phạm vi chuẩn (well-known, registered, dynamic) hoặc tùy chỉnh. Hữu ích để tránh xung đột cổng và phục vụ thử nghiệm.",
+    "options": {
+      "generation": {
+        "allowDuplicates": {
+          "description": "Cho phép cổng bị trùng",
+          "title": "Cho phép trùng lặp"
+        },
+        "countDescription": "Số lượng cổng cần tạo (1–1.000)",
+        "sortResults": {
+          "description": "Sắp xếp cổng tăng dần",
+          "title": "Sắp xếp kết quả"
+        },
+        "title": "Tùy chọn tạo cổng"
+      },
+      "output": {
+        "separatorDescription": "Ký tự phân tách các cổng",
+        "title": "Cài đặt đầu ra"
+      },
+      "range": {
+        "custom": "Phạm vi tùy chỉnh",
+        "dynamic": "Cổng động (49152–65535)",
+        "maxPortDescription": "Cổng tối đa (1–65535)",
+        "minPortDescription": "Cổng tối thiểu (1–65535)",
+        "registered": "Cổng đăng ký (1024–49151)",
+        "title": "Phạm vi cổng",
+        "wellKnown": "Cổng well-known (1–1023)"
+      }
+    },
+    "result": {
+      "count": "Số lượng",
+      "hasDuplicates": "Có trùng",
+      "isSorted": "Đã sắp xếp",
+      "portDetails": "Chi tiết cổng",
+      "range": "Phạm vi",
+      "title": "Các cổng ngẫu nhiên đã tạo"
+    },
+    "shortDescription": "Tạo cổng mạng ngẫu nhiên",
+    "title": "Bộ tạo cổng ngẫu nhiên"
+  },
+  "slackline": {
+    "description": "Tính lực căng trên dây slackline",
+    "longDescription": "Máy tính này giả định tải trọng đặt vào giữa sợi dây.",
+    "shortDescription": "Tính lực căng xấp xỉ của slackline hoặc dây phơi. Không dùng cho mục đích an toàn.",
+    "title": "Lực căng slackline"
+  },
+  "sphereArea": {
+    "description": "Diện tích hình cầu",
+    "longDescription": "Công cụ tính diện tích bề mặt hình cầu theo công thức A = 4πr². Bạn có thể nhập bán kính để tính diện tích hoặc nhập diện tích để tính bán kính. Hữu ích cho học sinh, kỹ sư hoặc người làm việc với vật thể dạng cầu.",
+    "shortDescription": "Tính diện tích bề mặt hình cầu dựa vào bán kính",
+    "title": "Diện tích hình cầu"
+  },
+  "sphereVolume": {
+    "description": "Thể tích hình cầu",
+    "longDescription": "Công cụ tính thể tích hình cầu theo công thức V = (4/3)πr³. Bạn có thể nhập bán kính hoặc đường kính để tính thể tích, hoặc nhập thể tích để tìm bán kính. Hữu ích cho học sinh, kỹ sư và các lĩnh vực liên quan đến vật thể hình cầu.",
+    "shortDescription": "Tính thể tích hình cầu bằng bán kính hoặc đường kính",
+    "title": "Thể tích hình cầu"
+  },
+  "sum": {
+    "description": "Tính tổng các số. Nhập các số cách nhau bằng dấu phẩy hoặc xuống dòng.",
+    "example1Description": "Ví dụ này tính tổng mười số nguyên dương được liệt kê theo cột với tổng bằng 19494.",
+    "example1Title": "Tổng của mười số dương",
+    "example2Description": "Ví dụ này đảo ngược danh sách 20 danh từ ba âm tiết và in từ dưới lên. Ký tự '\\n' được dùng làm ký tự phân tách.",
+    "example2Title": "Đếm cây trong công viên",
+    "example3Description": "Ví dụ này cộng 90 giá trị khác nhau – số dương, âm, số nguyên và số thập phân. Dùng dấu phẩy làm phân tách. Tổng bằng 0.",
+    "example3Title": "Tổng số nguyên và số thập phân",
+    "example4Description": "Ví dụ tính tổng dãy số 0–9 và bật tùy chọn \"In tổng từng bước\", hiển thị tổng tích lũy sau mỗi bước.",
+    "example4Title": "Tổng tích lũy",
+    "extractionTypes": {
+      "delimiter": {
+        "description": "Tùy chỉnh ký tự phân tách số. (Mặc định là xuống dòng.)",
+        "title": "Phân tách số"
+      },
+      "smart": {
+        "description": "Tự dò tìm số từ văn bản.",
+        "title": "Smart Sum"
+      }
+    },
+    "inputTitle": "Input",
+    "numberExtraction": "Trích xuất số",
+    "printRunningSum": "In tổng từng bước",
+    "printRunningSumDescription": "Hiển thị tổng khi đang tính.",
+    "resultTitle": "Tổng",
+    "runningSum": "Tổng từng bước",
+    "shortDescription": "Tính tổng các số",
+    "title": "Sum",
+    "toolInfo": {
+      "description": "Công cụ tính tổng các số từ văn bản hoặc danh sách, hỗ trợ nhiều loại ký tự phân tách.",
+      "title": "Sum là gì?"
+    }
+  },
+  "voltageDropInWire": {
+    "description": "Tính sụt áp và tổn hao công suất trong dây dẫn hai lõi",
+    "longDescription": "Công cụ tính sụt áp trong dây dẫn hai lõi dựa vào chiều dài dây, tiết diện, điện trở suất vật liệu và dòng điện. Tính được sụt áp khứ hồi, tổng điện trở dây và công suất tiêu tán. Hữu ích cho kỹ sư điện, thợ điện và người thiết kế hệ thống điện.",
+    "shortDescription": "Tính sụt áp và tổn hao công suất theo chiều dài, vật liệu và dòng điện",
+    "title": "Sụt áp trong dây dẫn hai lõi"
+  }
+}

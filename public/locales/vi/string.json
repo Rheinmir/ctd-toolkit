@@ -1,0 +1,311 @@
+{
+  "base64": {
+    "decode": "Giải mã Base64",
+    "description": "Mã hóa hoặc giải mã văn bản bằng Base64.",
+    "encode": "Mã hóa Base64",
+    "inputTitle": "Dữ liệu đầu vào",
+    "optionsTitle": "Tùy chọn Base64",
+    "resultTitle": "Kết quả",
+    "shortDescription": "Mã hóa hoặc giải mã dữ liệu bằng Base64.",
+    "title": "Bộ mã hóa/Giải mã Base64",
+    "toolInfo": {
+      "description": "Base64 là một dạng mã hóa biểu diễn dữ liệu nhị phân thành chuỗi ASCII bằng cách chuyển đổi thành hệ 64 ký tự. Thường dùng để mã hóa dữ liệu nhị phân khi truyền qua các môi trường chỉ hỗ trợ văn bản.",
+      "title": "Base64 là gì?"
+    }
+  },
+  "censor": {
+    "description": "Công cụ kiểm duyệt từ trong văn bản. Tải văn bản vào ô bên trái, nhập danh sách từ cần che trong phần tùy chọn, và văn bản đã được kiểm duyệt sẽ xuất hiện ngay lập tức.",
+    "shortDescription": "Che các từ nhạy cảm hoặc thay bằng từ khác.",
+    "title": "Censor văn bản"
+  },
+  "createPalindrome": {
+    "description": "Công cụ tạo palindrome từ văn bản. Nhập văn bản và nhận ngay chuỗi palindrome đọc xuôi ngược như nhau.",
+    "shortDescription": "Tạo văn bản đọc xuôi ngược giống nhau",
+    "title": "Tạo palindrome"
+  },
+  "extractSubstring": {
+    "description": "Trích xuất một phần của văn bản bằng vị trí bắt đầu và kết thúc.",
+    "shortDescription": "Trích đoạn văn bản theo vị trí",
+    "title": "Extract substring"
+  },
+  "hiddenCharacterDetector": {
+    "analysisOptions": "Tùy chọn phân tích",
+    "category": "Loại",
+    "description": "Phát hiện ký tự Unicode ẩn, đặc biệt là các ký tự RTL Override có thể dùng trong tấn công.",
+    "foundChars": "Đã tìm thấy {{count}} ký tự ẩn:",
+    "inputPlaceholder": "Nhập văn bản để kiểm tra...",
+    "inputTitle": "Văn bản cần phân tích",
+    "invisibleChar": "Ký tự vô hình",
+    "invisibleFound": "Phát hiện ký tự vô hình",
+    "longDescription": "Công cụ này giúp phát hiện các ký tự Unicode ẩn trong văn bản, bao gồm ký tự độ rộng bằng không, ký tự vô hình, ký tự RTL Override…",
+    "noHiddenChars": "Không phát hiện ký tự ẩn.",
+    "optionsDescription": "Cấu hình loại ký tự ẩn cần tìm và cách hiển thị kết quả.",
+    "position": "Vị trí",
+    "rtlAlert": "⚠️ Phát hiện ký tự RTL Override! Văn bản có thể chứa mã độc.",
+    "rtlFound": "Phát hiện RTL Override",
+    "rtlOverride": "Ký tự RTL Override",
+    "rtlWarning": "CẢNH BÁO: Có ký tự RTL Override! Có thể bị lợi dụng để tấn công.",
+    "shortDescription": "Phát hiện ký tự Unicode ẩn",
+    "summary": "Tổng quan phân tích",
+    "title": "Trình dò ký tự ẩn",
+    "totalChars": "Tổng số ký tự ẩn: {{count}}",
+    "unicode": "Unicode",
+    "zeroWidthChar": "Ký tự độ rộng bằng không",
+    "zeroWidthFound": "Phát hiện ký tự độ rộng bằng không"
+  },
+  "join": {
+    "blankLinesAndTrailingSpaces": "Dòng trống và khoảng trắng cuối dòng",
+    "deleteBlankDescription": "Xóa các dòng không chứa ký tự.",
+    "deleteBlankTitle": "Xóa dòng trống",
+    "deleteTrailingDescription": "Xóa khoảng trắng và tab ở cuối dòng.",
+    "deleteTrailingTitle": "Xóa khoảng trắng cuối dòng",
+    "description": "Ghép nhiều đoạn văn bản với ký tự phân tách tùy chọn.",
+    "inputTitle": "Các đoạn văn bản",
+    "joinCharacterDescription": "Ký tự dùng để nối các đoạn văn bản. (Mặc định: khoảng trắng)",
+    "joinCharacterPlaceholder": "Ký tự nối",
+    "resultTitle": "Văn bản đã ghép",
+    "shortDescription": "Ghép văn bản bằng ký tự tùy chọn",
+    "textMergedOptions": "Tùy chọn ghép văn bản",
+    "title": "Join văn bản",
+    "toolInfo": {
+      "description": "Công cụ này giúp bạn ghép các đoạn văn bản lại với nhau, có thể loại bỏ dòng trống và khoảng trắng cuối dòng.",
+      "title": "Text Joiner là gì?"
+    }
+  },
+  "palindrome": {
+    "description": "Kiểm tra xem văn bản có phải là palindrome hay không. Hỗ trợ nhiều kiểu phân tách và cụm từ.",
+    "shortDescription": "Kiểm tra văn bản có đọc xuôi ngược giống nhau",
+    "title": "Kiểm tra palindrome"
+  },
+  "passwordGenerator": {
+    "avoidAmbiguous": "Tránh ký tự dễ nhầm (i,l,0,O...)",
+    "description": "Tạo mật khẩu ngẫu nhiên mạnh với độ dài và ký tự tùy chọn.",
+    "includeLowercase": "Bao gồm chữ thường (a-z)",
+    "includeNumbers": "Bao gồm số (0-9)",
+    "includeSymbols": "Bao gồm ký tự đặc biệt",
+    "includeUppercase": "Bao gồm chữ hoa (A-Z)",
+    "lengthDesc": "Độ dài mật khẩu",
+    "lengthPlaceholder": "vd. 12",
+    "optionsTitle": "Tùy chọn mật khẩu",
+    "resultTitle": "Mật khẩu đã tạo",
+    "shortDescription": "Tạo mật khẩu bảo mật mạnh",
+    "title": "Trình tạo mật khẩu",
+    "toolInfo": {
+      "description": "Công cụ tạo mật khẩu ngẫu nhiên với nhiều tùy chọn linh hoạt.",
+      "title": "Giới thiệu Password Generator"
+    }
+  },
+  "quote": {
+    "allowDoubleQuotation": "Cho phép dùng dấu ngoặc kép",
+    "description": "Thêm dấu ngoặc bao quanh văn bản.",
+    "inputTitle": "Văn bản đầu vào",
+    "leftQuoteDescription": "Ký tự mở ngoặc",
+    "processAsMultiLine": "Xử lý dạng nhiều dòng",
+    "quoteEmptyLines": "Thêm ngoặc vào dòng trống",
+    "quoteOptions": "Tùy chọn thêm ngoặc",
+    "resultTitle": "Văn bản đã thêm ngoặc",
+    "rightQuoteDescription": "Ký tự đóng ngoặc",
+    "shortDescription": "Thêm dấu ngoặc cho văn bản",
+    "title": "Text Quoter",
+    "toolInfo": {
+      "description": "Công cụ giúp thêm dấu ngoặc trái/phải tùy chỉnh vào văn bản, hỗ trợ đa dòng.",
+      "title": "Text Quoter"
+    }
+  },
+  "randomizeCase": {
+    "description": "Ngẫu nhiên hóa chữ hoa và chữ thường trong văn bản.",
+    "shortDescription": "Random chữ hoa/thường",
+    "title": "Ngẫu nhiên hóa kiểu chữ"
+  },
+  "removeDuplicateLines": {
+    "description": "Xóa toàn bộ các dòng trùng lặp trong văn bản.",
+    "shortDescription": "Xóa dòng trùng lặp",
+    "title": "Remove duplicate lines"
+  },
+  "repeat": {
+    "delimiterDescription": "Ký tự phân tách giữa các bản lặp.",
+    "delimiterPlaceholder": "Delimiter",
+    "description": "Lặp lại văn bản nhiều lần.",
+    "inputTitle": "Văn bản đầu vào",
+    "numberPlaceholder": "Số lần",
+    "repeatAmountDescription": "Số lần lặp.",
+    "repetitionsDelimiter": "Ký tự phân tách giữa các lần lặp",
+    "resultTitle": "Văn bản đã lặp",
+    "shortDescription": "Lặp văn bản",
+    "textRepetitions": "Số lần lặp",
+    "title": "Repeat văn bản",
+    "toolInfo": {
+      "description": "Công cụ lặp lại văn bản nhiều lần với delimiter tùy chọn.",
+      "title": "Repeat Text"
+    }
+  },
+  "reverse": {
+    "description": "Đảo ngược văn bản ký tự theo ký tự.",
+    "inputTitle": "Văn bản cần đảo",
+    "processMultiLine": "Xử lý từng dòng riêng biệt",
+    "processMultiLineDescription": "Mỗi dòng sẽ được đảo riêng",
+    "resultTitle": "Văn bản đã đảo",
+    "reversalOptions": "Tùy chọn đảo",
+    "shortDescription": "Đảo ký tự trong văn bản",
+    "skipEmptyLines": "Bỏ qua dòng trống",
+    "skipEmptyLinesDescription": "Dòng trống sẽ bị loại bỏ",
+    "title": "Đảo văn bản",
+    "trimWhitespace": "Xóa khoảng trắng dư",
+    "trimWhitespaceDescription": "Xóa khoảng trắng đầu/cuối dòng"
+  },
+  "rot13": {
+    "description": "Mã hóa/Giải mã văn bản bằng ROT13.",
+    "inputTitle": "Văn bản đầu vào",
+    "resultTitle": "Kết quả ROT13",
+    "shortDescription": "Mã hóa/Giải mã ROT13",
+    "title": "ROT13",
+    "toolInfo": {
+      "description": "ROT13 thay thế mỗi chữ cái bằng chữ cái cách nó 13 vị trí trong bảng chữ cái.",
+      "title": "ROT13 là gì?"
+    }
+  },
+  "rotate": {
+    "description": "Xoay các ký tự trong văn bản theo số vị trí chỉ định.",
+    "inputTitle": "Văn bản đầu vào",
+    "processAsMultiLine": "Xử lý theo từng dòng",
+    "resultTitle": "Văn bản đã xoay",
+    "rotateLeft": "Xoay trái",
+    "rotateRight": "Xoay phải",
+    "rotationOptions": "Tùy chọn xoay",
+    "shortDescription": "Dịch ký tự trong văn bản",
+    "stepDescription": "Số ký tự cần xoay",
+    "title": "Xoay văn bản",
+    "toolInfo": {
+      "description": "Xoay ký tự trong chuỗi giúp tạo các mẫu văn bản hoặc mô phỏng mã hóa đơn giản.",
+      "title": "String Rotation"
+    }
+  },
+  "split": {
+    "charAfterChunkDescription": "Ký tự đặt sau mỗi phần cắt",
+    "charBeforeChunkDescription": "Ký tự đặt trước mỗi phần cắt",
+    "chunksDescription": "Số phần được chia bằng nhau.",
+    "chunksTitle": "Chia theo số phần",
+    "description": "Chia văn bản thành nhiều phần theo ký tự hoặc regex.",
+    "lengthDescription": "Số ký tự trong mỗi phần.",
+    "lengthTitle": "Chia theo độ dài",
+    "outputSeparatorDescription": "Ký tự phân tách giữa các phần sau khi chia (mặc định: xuống dòng)",
+    "outputSeparatorOptions": "Tùy chọn phân tách đầu ra",
+    "regexDescription": "Regex dùng để chia văn bản (mặc định: nhiều khoảng trắng).",
+    "regexTitle": "Dùng Regex để chia",
+    "resultTitle": "Kết quả chia",
+    "shortDescription": "Chia văn bản bằng ký tự/regex",
+    "splitSeparatorOptions": "Tùy chọn phân tách",
+    "symbolDescription": "Ký tự dùng để chia văn bản (mặc định: khoảng trắng).",
+    "symbolTitle": "Chia theo ký tự",
+    "title": "Chia văn bản"
+  },
+  "statistic": {
+    "characterFrequencyAnalysis": "Thống kê tần suất ký tự",
+    "characterFrequencyAnalysisDescription": "Đếm tần suất xuất hiện của mỗi ký tự",
+    "delimitersOptions": "Tùy chọn dấu phân tách",
+    "description": "Phân tích văn bản và tạo thống kê chi tiết.",
+    "includeEmptyLines": "Tính cả dòng trống",
+    "includeEmptyLinesDescription": "Bao gồm dòng trống trong thống kê dòng",
+    "inputTitle": "Văn bản đầu vào",
+    "resultTitle": "Thống kê văn bản",
+    "sentenceDelimitersDescription": "Nhập ký tự ngắt câu (cách nhau bằng dấu phẩy), hoặc để trống để dùng mặc định.",
+    "sentenceDelimitersPlaceholder": "vd. ., !, ?, ...",
+    "shortDescription": "Xem thống kê văn bản",
+    "statisticsOptions": "Tùy chọn thống kê",
+    "title": "Thống kê văn bản",
+    "toolInfo": {
+      "description": "Công cụ thống kê số ký tự, số từ, số dòng và phân tích tần suất ký tự/từ.",
+      "title": "Thống kê văn bản"
+    },
+    "wordDelimitersDescription": "Regex tùy chỉnh để tách từ, hoặc để trống để dùng mặc định.",
+    "wordDelimitersPlaceholder": "vd. \\s.,;:!?\"«»()…",
+    "wordFrequencyAnalysis": "Thống kê tần suất từ",
+    "wordFrequencyAnalysisDescription": "Đếm số lần xuất hiện của từng từ"
+  },
+  "textReplacer": {
+    "description": "Thay thế mẫu văn bản bằng nội dung mới.",
+    "findPatternInText": "Tìm mẫu văn bản",
+    "findPatternUsingRegexp": "Tìm bằng RegExp",
+    "inputTitle": "Văn bản cần thay",
+    "newTextPlaceholder": "Nội dung mới",
+    "regexpDescription": "Nhập regex cần thay thế.",
+    "replacePatternDescription": "Nhập mẫu văn bản cần thay.",
+    "replaceText": "Thay văn bản",
+    "resultTitle": "Văn bản sau thay thế",
+    "searchPatternDescription": "Nhập mẫu cần tìm.",
+    "searchText": "Tìm văn bản",
+    "shortDescription": "Thay văn bản nhanh chóng",
+    "title": "Text Replacer",
+    "toolInfo": {
+      "description": "Chỉ cần nhập văn bản, mẫu tìm và nội dung thay thế — công cụ sẽ cập nhật ngay.",
+      "title": "Text Replacer"
+    }
+  },
+  "toMorse": {
+    "dashSymbolDescription": "Ký hiệu cho dấu gạch trong Morse",
+    "description": "Chuyển đổi văn bản sang mã Morse.",
+    "dotSymbolDescription": "Ký hiệu cho dấu chấm trong Morse",
+    "longSignal": "Tín hiệu dài",
+    "resultTitle": "Morse code",
+    "shortDescription": "Mã hóa văn bản sang Morse",
+    "shortSignal": "Tín hiệu ngắn",
+    "title": "Chuỗi sang Morse"
+  },
+  "truncate": {
+    "addTruncationIndicator": "Thêm ký hiệu rút gọn",
+    "charactersPlaceholder": "Số ký tự",
+    "description": "Rút gọn văn bản theo độ dài chỉ định.",
+    "indicatorDescription": "Ký tự thêm vào cuối (hoặc đầu). Tính vào tổng độ dài.",
+    "inputTitle": "Văn bản đầu vào",
+    "leftSideDescription": "Xóa ký tự từ đầu văn bản.",
+    "leftSideTruncation": "Rút gọn bên trái",
+    "lengthAndLines": "Độ dài và dòng",
+    "lineByLineDescription": "Rút gọn từng dòng riêng biệt.",
+    "lineByLineTruncating": "Rút gọn theo dòng",
+    "maxLengthDescription": "Số ký tự giữ lại.",
+    "numberPlaceholder": "Số",
+    "resultTitle": "Văn bản đã rút gọn",
+    "rightSideDescription": "Xóa ký tự từ cuối văn bản.",
+    "rightSideTruncation": "Rút gọn bên phải",
+    "shortDescription": "Rút gọn văn bản",
+    "suffixAndAffix": "Hậu tố và tiền tố",
+    "title": "Rút gọn văn bản",
+    "toolInfo": {
+      "description": "Tự động rút gọn văn bản theo độ dài đã chọn.",
+      "title": "Truncate Text"
+    },
+    "truncationSide": "Vị trí rút gọn"
+  },
+  "uppercase": {
+    "description": "Chuyển văn bản sang chữ in hoa.",
+    "inputTitle": "Văn bản đầu vào",
+    "resultTitle": "Văn bản in hoa",
+    "shortDescription": "Chuyển sang chữ in hoa",
+    "title": "Chuyển sang Uppercase"
+  },
+  "urlDecode": {
+    "inputTitle": "Chuỗi đầu vào (URL-escaped)",
+    "resultTitle": "Chuỗi đầu ra",
+    "toolInfo": {
+      "description": "Tự động giải mã URL cho chuỗi đầu vào.",
+      "longDescription": "Giải mã URL là quá trình chuyển các ký tự dạng %xx về ký tự gốc. Ví dụ: %20 → khoảng trắng, %2f → /, %3f → ?. Công cụ này tự động thực hiện điều đó.",
+      "shortDescription": "Giải mã URL nhanh chóng",
+      "title": "Trình giải mã URL"
+    }
+  },
+  "urlEncode": {
+    "encodingOption": {
+      "nonSpecialCharDescription": "Nếu bật, toàn bộ ký tự sẽ được mã hóa, không chỉ ký tự đặc biệt.",
+      "nonSpecialCharPlaceholder": "Mã hóa ký tự không đặc biệt",
+      "title": "Tùy chọn mã hóa"
+    },
+    "inputTitle": "Chuỗi đầu vào",
+    "resultTitle": "Chuỗi đã mã hóa URL",
+    "toolInfo": {
+      "description": "Tự động mã hóa URL cho chuỗi đầu vào.",
+      "longDescription": "URL-encoding chuyển ký tự đặc biệt thành %xx dạng hex để truyền qua URL an toàn. Ví dụ: khoảng trắng → %20, / → %2f.",
+      "shortDescription": "Mã hóa URL nhanh chóng",
+      "title": "Trình mã hóa URL"
+    }
+  }
+}

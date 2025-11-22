@@ -1,0 +1,67 @@
+{
+  "comparison": {
+    "description": "So sánh hai đối tượng JSON để tìm sự khác biệt về cấu trúc và giá trị.",
+    "shortDescription": "Tìm sự khác nhau giữa hai JSON",
+    "title": "So sánh JSON"
+  },
+  "escapeJson": {
+    "description": "Escape các ký tự đặc biệt trong chuỗi JSON. Chuyển dữ liệu JSON sang dạng escape an toàn để truyền hoặc lưu trữ.",
+    "shortDescription": "Escape ký tự đặc biệt trong JSON",
+    "title": "Escape JSON"
+  },
+  "jsonToXml": {
+    "description": "Chuyển dữ liệu JSON sang định dạng XML. Biến đổi JSON có cấu trúc thành tài liệu XML chuẩn.",
+    "shortDescription": "Chuyển JSON sang XML",
+    "title": "JSON sang XML"
+  },
+  "minify": {
+    "description": "Xóa toàn bộ khoảng trắng không cần thiết trong JSON.",
+    "inputTitle": "JSON đầu vào",
+    "resultTitle": "JSON đã thu gọn",
+    "shortDescription": "Thu gọn JSON bằng cách bỏ khoảng trắng",
+    "title": "Thu gọn JSON",
+    "toolInfo": {
+      "description": "Thu gọn JSON là quá trình loại bỏ toàn bộ khoảng trắng thừa khỏi dữ liệu JSON mà vẫn giữ nguyên tính hợp lệ. Bao gồm việc xóa dấu cách, xuống dòng, và thụt lề không cần thiết. Kết quả là JSON nhỏ hơn, tối ưu cho lưu trữ và truyền tải mà không thay đổi cấu trúc hoặc giá trị.",
+      "title": "Thu gọn JSON là gì?"
+    }
+  },
+  "prettify": {
+    "description": "Định dạng JSON với thụt lề và khoảng cách chuẩn.",
+    "indentation": "Thụt lề",
+    "inputTitle": "JSON đầu vào",
+    "resultTitle": "JSON đã làm đẹp",
+    "shortDescription": "Định dạng và làm đẹp JSON",
+    "title": "Làm đẹp JSON",
+    "toolInfo": {
+      "description": "Công cụ này giúp bạn định dạng JSON với cách thụt lề và khoảng cách hợp lý, giúp dễ đọc và dễ thao tác hơn.",
+      "title": "Làm đẹp JSON"
+    },
+    "useSpaces": "Dùng dấu cách",
+    "useSpacesDescription": "Thụt lề bằng dấu cách",
+    "useTabs": "Dùng tab",
+    "useTabsDescription": "Thụt lề bằng tab."
+  },
+  "stringify": {
+    "description": "Chuyển đối tượng JavaScript thành chuỗi JSON. Tuần tự hóa cấu trúc dữ liệu để lưu trữ hoặc truyền tải.",
+    "shortDescription": "Chuyển object sang JSON string",
+    "title": "Stringify JSON"
+  },
+  "tsvToJson": {
+    "description": "Chuyển dữ liệu TSV (Tab-Separated Values) sang JSON. Biến dữ liệu dạng bảng thành JSON có cấu trúc.",
+    "shortDescription": "Chuyển TSV sang JSON",
+    "title": "TSV sang JSON"
+  },
+  "validateJson": {
+    "description": "Kiểm tra JSON hợp lệ và đúng cấu trúc.",
+    "inputTitle": "JSON đầu vào",
+    "invalidJson": "❌ {{error}}",
+    "resultTitle": "Kết quả kiểm tra",
+    "shortDescription": "Kiểm tra JSON có lỗi hay không",
+    "title": "Xác thực JSON",
+    "toolInfo": {
+      "description": "JSON là định dạng trao đổi dữ liệu nhẹ. Việc xác thực JSON đảm bảo dữ liệu tuân theo chuẩn JSON: tên thuộc tính phải nằm trong dấu ngoặc kép, dấu ngoặc {} phải cân bằng, không có dấu phẩy thừa, và cấu trúc lồng nhau phải hợp lệ. Công cụ này kiểm tra JSON đầu vào và báo lỗi chi tiết giúp bạn sửa nhanh chóng.",
+      "title": "Xác thực JSON là gì?"
+    },
+    "validJson": "✅ JSON hợp lệ"
+  }
+}

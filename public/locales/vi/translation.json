@@ -1,0 +1,255 @@
+{
+  "audio": {
+    "changeSpeed": {
+      "description": "Thay đổi tốc độ phát của tệp âm thanh. Tăng hoặc giảm tốc độ mà vẫn giữ nguyên cao độ.",
+      "name": "Thay đổi tốc độ audio",
+      "shortDescription": "Điều chỉnh tốc độ của tệp âm thanh"
+    },
+    "extractAudio": {
+      "description": "Tách phần âm thanh từ video và lưu thành tệp audio riêng ở định dạng bạn chọn (AAC, MP3, WAV).",
+      "name": "Tách âm thanh",
+      "shortDescription": "Tách âm thanh từ video (MP4, MOV, v.v.) sang AAC, MP3 hoặc WAV."
+    }
+  },
+  "baseFileInput": {
+    "copyFailed": "Sao chép thất bại: {{error}}",
+    "dropFileHere": "Thả {{type}} vào đây",
+    "fileCopied": "Đã sao chép tệp",
+    "selectFileDescription": "Bấm vào đây để chọn {{type}} từ thiết bị của bạn, nhấn Ctrl+V để dùng {{type}} từ clipboard, hoặc kéo–thả từ desktop"
+  },
+  "categories": {
+    "audio": {
+      "description": "Các công cụ xử lý âm thanh – tách âm thanh từ video, chỉnh tốc độ, ghép nhiều tệp audio và nhiều hơn nữa.",
+      "title": "Công cụ Audio"
+    },
+    "csv": {
+      "description": "Các công cụ xử lý CSV – chuyển đổi sang định dạng khác, thao tác dữ liệu CSV, kiểm tra cấu trúc CSV và tối ưu xử lý.",
+      "title": "Công cụ CSV"
+    },
+    "gif": {
+      "description": "Công cụ xử lý GIF – tạo GIF trong suốt, tách khung hình, thêm chữ, cắt, xoay, đảo ngược GIF và nhiều hơn nữa.",
+      "title": "Công cụ GIF"
+    },
+    "image-generic": {
+      "description": "Công cụ xử lý hình ảnh – nén, đổi kích thước, cắt, chuyển sang JPG, xoay, xóa nền và nhiều hơn nữa.",
+      "title": "Công cụ Hình ảnh"
+    },
+    "json": {
+      "description": "Công cụ xử lý JSON – làm đẹp, thu gọn, phân tích, ánh xạ cấu trúc, stringify và nhiều chức năng khác.",
+      "title": "Công cụ JSON"
+    },
+    "list": {
+      "description": "Công cụ xử lý danh sách – sắp xếp, đảo ngược, trộn ngẫu nhiên, tìm phần tử trùng nhau, thay đổi dấu phân tách, và nhiều hơn nữa.",
+      "title": "Công cụ Danh sách"
+    },
+    "number": {
+      "description": "Công cụ xử lý số – tạo dãy số, đổi số thành chữ, làm tròn, phân tích, sắp xếp, phân tích thừa số và hơn thế nữa.",
+      "title": "Công cụ Số"
+    },
+    "pdf": {
+      "description": "Công cụ xử lý PDF – trích xuất văn bản, chuyển đổi định dạng, thao tác trang PDF và nhiều chức năng khác.",
+      "title": "Công cụ PDF"
+    },
+    "png": {
+      "description": "Công cụ xử lý PNG – chuyển PNG sang JPG, tạo PNG trong suốt, đổi màu, cắt, xoay, đổi kích thước và nhiều hơn nữa.",
+      "title": "Công cụ PNG"
+    },
+    "seeAll": "Xem tất cả {{title}}",
+    "string": {
+      "description": "Công cụ xử lý văn bản – chuyển text sang ảnh, tìm–thay thế, tách đoạn, nối dòng, lặp lại văn bản và nhiều hơn nữa.",
+      "title": "Công cụ Văn bản"
+    },
+    "time": {
+      "description": "Công cụ xử lý thời gian – tính chênh lệch thời gian, đổi múi giờ, định dạng ngày giờ, tạo chuỗi ngày và nhiều hơn nữa.",
+      "title": "Công cụ Thời gian"
+    },
+    "try": "Thử {{title}}",
+    "video": {
+      "description": "Công cụ xử lý video – trích khung hình, tạo GIF từ video, chuyển đổi định dạng video và nhiều hơn nữa.",
+      "title": "Công cụ Video"
+    },
+    "xml": {
+      "description": "Công cụ xử lý XML – xem, làm đẹp, kiểm tra lỗi, chuyển đổi và nhiều hơn nữa",
+      "title": "Công cụ XML"
+    }
+  },
+  "csv": {
+    "findIncompleteCsvRecords": {
+      "description": "Tải file CSV của bạn lên và công cụ sẽ tự động kiểm tra xem các hàng hoặc cột có bị thiếu giá trị hay không. Bạn có thể tùy chỉnh ký tự phân tách, ký tự trích dẫn và ký tự comment trong phần tùy chọn.",
+      "name": "Tìm bản ghi CSV không đầy đủ",
+      "shortDescription": "Tìm hàng/cột bị thiếu dữ liệu nhanh chóng."
+    }
+  },
+  "hero": {
+    "brand": "OmniTools",
+    "description": "Tăng tốc năng suất với OmniTools – bộ công cụ toàn diện giúp bạn xử lý mọi thứ siêu nhanh! Hàng ngàn tiện ích trực quan cho hình ảnh, văn bản, danh sách, dữ liệu… tất cả ngay trên trình duyệt.",
+    "examples": {
+      "calculateNumberSum": "Tính tổng số",
+      "changeGifSpeed": "Thay đổi tốc độ GIF",
+      "compressPng": "Nén PNG",
+      "createTransparentImage": "Tạo ảnh trong suốt",
+      "prettifyJson": "Làm đẹp JSON",
+      "sortList": "Sắp xếp danh sách",
+      "splitPdf": "Tách PDF",
+      "splitText": "Tách văn bản",
+      "trimVideo": "Cắt video"
+    },
+    "searchPlaceholder": "Tìm công cụ...",
+    "title": "Hoàn thành công việc nhanh chóng với"
+  },
+  "inputFooter": {
+    "clear": "Xóa",
+    "copyToClipboard": "Sao chép vào clipboard",
+    "importFromFile": "Nhập từ tệp"
+  },
+  "list": {
+    "group": {
+      "description": "Công cụ nhóm các phần tử danh sách theo kích thước hoặc cấu trúc tùy chỉnh. Hữu ích cho việc phân loại, tổ chức dữ liệu hoặc tạo danh sách có cấu trúc.",
+      "name": "Group",
+      "shortDescription": "Nhóm các phần tử trong danh sách"
+    },
+    "reverse": {
+      "description": "Công cụ đảo ngược danh sách cực kỳ đơn giản. Hỗ trợ chọn ký tự phân tách đầu vào và đầu ra.",
+      "name": "Reverse",
+      "shortDescription": "Đảo ngược danh sách nhanh chóng"
+    },
+    "sort": {
+      "description": "Công cụ sắp xếp danh sách theo tăng/giảm, theo bảng chữ cái, theo số hoặc theo độ dài. Có thể loại bỏ trùng lặp, khoảng trắng và tùy chỉnh dấu phân tách.",
+      "name": "Sort",
+      "shortDescription": "Sắp xếp danh sách nhanh chóng"
+    }
+  },
+  "navbar": {
+    "buyMeACoffee": "Mua cho tôi một ly cà phê",
+    "hireMe": "Thuê tôi",
+    "home": "Trang chủ",
+    "tools": "Công cụ"
+  },
+  "number": {
+    "generate": {
+      "description": "Công cụ tạo dãy số nguyên nhanh chóng. Chỉ cần nhập số bắt đầu, bước nhảy và tổng số phần tử.",
+      "name": "Tạo dãy số",
+      "shortDescription": "Tạo danh sách số nguyên nhanh chóng"
+    },
+    "sum": {
+      "description": "Công cụ tính tổng các số. Hỗ trợ nhiều loại ký tự phân tách và tùy chỉnh cách hiển thị.",
+      "name": "Tính tổng số",
+      "shortDescription": "Tính tổng danh sách số"
+    }
+  },
+  "numericInputWithUnit": {
+    "unit": "Đơn vị"
+  },
+  "pdf": {
+    "compressPdf": {
+      "description": "Nén dung lượng PDF mà vẫn giữ chất lượng nhờ Ghostscript.",
+      "name": "Nén PDF",
+      "shortDescription": "Nén PDF ngay trong trình duyệt"
+    },
+    "mergePdf": {
+      "description": "Gộp nhiều tệp PDF thành một tài liệu duy nhất.",
+      "name": "Gộp PDF",
+      "shortDescription": "Gộp một hoặc nhiều PDF"
+    },
+    "pdfToEpub": {
+      "description": "Chuyển đổi PDF sang EPUB để đọc tốt hơn trên thiết bị e-reader.",
+      "name": "PDF sang EPUB",
+      "shortDescription": "Đổi PDF sang EPUB"
+    },
+    "protectPdf": {
+      "description": "Đặt mật khẩu bảo vệ tệp PDF trực tiếp trong trình duyệt.",
+      "name": "Bảo vệ PDF",
+      "shortDescription": "Khóa PDF bằng mật khẩu"
+    },
+    "splitPdf": {
+      "description": "Tách các trang cụ thể từ tệp PDF bằng số trang hoặc khoảng trang (ví dụ: 1,5-8).",
+      "name": "Tách PDF",
+      "shortDescription": "Tách trang khỏi PDF"
+    }
+  },
+  "resultFooter": {
+    "copy": "Sao chép",
+    "download": "Tải xuống"
+  },
+  "string": {
+    "createPalindrome": {
+      "description": "Tạo văn bản palindrome – đọc xuôi ngược giống nhau. Hữu ích cho trò chơi chữ hoặc tạo hiệu ứng đối xứng.",
+      "name": "Tạo palindrome",
+      "shortDescription": "Tạo văn bản đối xứng"
+    },
+    "palindrome": {
+      "description": "Kiểm tra văn bản có phải palindrome hay không. Hỗ trợ phân tách đa từ và nhiều loại ký tự.",
+      "name": "Kiểm tra palindrome",
+      "shortDescription": "Xác định văn bản đối xứng"
+    },
+    "repeat": {
+      "description": "Lặp lại văn bản nhiều lần với dấu phân tách tùy chọn.",
+      "name": "Lặp văn bản",
+      "shortDescription": "Lặp văn bản nhiều lần"
+    },
+    "reverse": {
+      "description": "Đảo thứ tự ký tự trong văn bản. Giữ nguyên dấu cách và ký tự đặc biệt.",
+      "name": "Đảo văn bản",
+      "shortDescription": "Đảo văn bản theo ký tự"
+    },
+    "toMorse": {
+      "description": "Chuyển văn bản sang mã Morse nhanh chóng. Nhập văn bản và nhận Morse ngay lập tức.",
+      "name": "Chuỗi sang Morse",
+      "shortDescription": "Mã hóa văn bản sang Morse"
+    },
+    "uppercase": {
+      "description": "Chuyển toàn bộ văn bản thành chữ in hoa. Giữ nguyên ký tự đặc biệt.",
+      "name": "Viết hoa",
+      "shortDescription": "Chuyển văn bản sang chữ in hoa"
+    }
+  },
+  "toolExamples": {
+    "subtitle": "Bấm để thử!",
+    "title": "Ví dụ {{title}}"
+  },
+  "toolFileResult": {
+    "copied": "Đã sao chép tệp",
+    "copyFailed": "Sao chép thất bại: {{error}}",
+    "loading": "Đang tải... Vui lòng đợi.",
+    "result": "Kết quả"
+  },
+  "toolHeader": {
+    "seeExamples": "Xem ví dụ"
+  },
+  "toolLayout": {
+    "allToolsTitle": "Tất cả {{type}}"
+  },
+  "toolMultiFileResult": {
+    "copied": "Đã sao chép tệp",
+    "copyFailed": "Sao chép thất bại: {{error}}",
+    "loading": "Đang tải... Vui lòng đợi.",
+    "result": "Kết quả"
+  },
+  "toolMultipleAudioInput": {
+    "inputTitle": "Tệp {{type}} đầu vào",
+    "noFilesSelected": "Chưa chọn tệp nào"
+  },
+  "toolMultiplePdfInput": {
+    "inputTitle": "Tệp {{type}} đầu vào",
+    "noFilesSelected": "Chưa chọn tệp nào"
+  },
+  "toolOptions": {
+    "title": "Tùy chọn công cụ"
+  },
+  "toolTextInput": {
+    "copied": "Đã sao chép văn bản",
+    "copyFailed": "Sao chép thất bại: {{error}}",
+    "input": "Nhập văn bản",
+    "placeholder": "Nhập văn bản của bạn..."
+  },
+  "toolTextResult": {
+    "copied": "Đã sao chép văn bản",
+    "copyFailed": "Sao chép thất bại: {{error}}",
+    "loading": "Đang xử lý... Vui lòng đợi.",
+    "result": "Kết quả"
+  },
+  "userTypes": {
+    "developers": "Lập trình viên",
+    "generalUsers": "Người dùng phổ thông"
+  }
+}

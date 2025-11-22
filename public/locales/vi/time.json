@@ -1,0 +1,117 @@
+{
+  "checkLeapYears": {
+    "description": "Kiểm tra một năm có phải năm nhuận và xem thông tin liên quan.",
+    "exampleDescription": "Một người bạn của chúng tôi sinh vào ngày 29 tháng 2 của một năm nhuận, nên sinh nhật chỉ có bốn năm một lần. Để không quên sinh nhật bạn ấy, chúng tôi dùng công cụ này để tạo danh sách các năm nhuận sắp tới. Chỉ cần nhập dãy năm từ 2025 đến 2040, công cụ sẽ cho biết năm nào là năm nhuận và khi nào sẽ có sinh nhật vào ngày 29 tháng 2.",
+    "exampleTitle": "Tìm sinh nhật vào ngày 29/02",
+    "inputTitle": "Năm đầu vào",
+    "resultTitle": "Kết quả năm nhuận",
+    "shortDescription": "Kiểm tra năm nhuận",
+    "title": "Kiểm tra năm nhuận",
+    "toolInfo": {
+      "description": "Năm nhuận có thêm một ngày (29/02) để đồng bộ năm dương lịch với chu kỳ Mặt Trời. Năm nhuận xảy ra mỗi 4 năm, trừ các năm chia hết cho 100 nhưng không chia hết cho 400.",
+      "title": "Năm nhuận là gì?"
+    }
+  },
+  "convertDaysToHours": {
+    "addHoursName": "Thêm chữ 'giờ'",
+    "addHoursNameDescription": "Tự động thêm chữ 'giờ' vào kết quả",
+    "description": "Chuyển đổi ngày sang giờ với các tùy chọn linh hoạt.",
+    "hoursName": "Tên đơn vị giờ",
+    "shortDescription": "Đổi ngày sang giờ",
+    "title": "Chuyển ngày sang giờ",
+    "toolInfo": {
+      "description": "Công cụ này cho phép bạn đổi ngày sang giờ. Có thể nhập số hoặc chuỗi có đơn vị, và tùy chọn thêm hậu tố 'giờ' vào kết quả.",
+      "title": "Chuyển đổi ngày sang giờ"
+    }
+  },
+  "convertHoursToDays": {
+    "addDaysName": "Thêm chữ 'ngày'",
+    "addDaysNameDescription": "Tự động thêm chữ 'ngày' vào kết quả",
+    "daysName": "Tên đơn vị ngày",
+    "description": "Chuyển đổi giờ sang ngày kèm các tùy chọn.",
+    "shortDescription": "Đổi giờ sang ngày",
+    "title": "Chuyển giờ sang ngày",
+    "toolInfo": {
+      "description": "Cho phép đổi giờ sang ngày. Hỗ trợ nhập số có hoặc không có đơn vị và tùy chọn thêm hậu tố 'ngày'.",
+      "title": "Chuyển đổi giờ sang ngày"
+    }
+  },
+  "convertSecondsToTime": {
+    "addPadding": "Thêm số 0 phía trước",
+    "addPaddingDescription": "Thêm số 0 để đảm bảo giờ/phút/giây luôn đủ hai chữ số.",
+    "description": "Đổi số giây thành định dạng thời gian (giờ:phút:giây).",
+    "shortDescription": "Chuyển giây sang định dạng thời gian",
+    "timePadding": "Định dạng thời gian",
+    "title": "Chuyển giây sang thời gian",
+    "toolInfo": {
+      "title": "Chuyển đổi {{title}} là gì?"
+    }
+  },
+  "convertTimeToSeconds": {
+    "description": "Chuyển đổi thời gian định dạng HH:MM:SS sang tổng số giây.",
+    "inputTitle": "Thời gian đầu vào",
+    "resultTitle": "Số giây",
+    "shortDescription": "Đổi thời gian sang giây",
+    "title": "Chuyển thời gian sang giây",
+    "toolInfo": {
+      "description": "Công cụ này đổi thời gian theo định dạng HH:MM:SS sang số giây. Hữu ích cho việc tính toán thời lượng hoặc khoảng thời gian.",
+      "title": "Chuyển thời gian sang giây"
+    }
+  },
+  "convertUnixToDate": {
+    "addUtcLabel": "Thêm chữ 'UTC'",
+    "addUtcLabelDescription": "Hiển thị 'UTC' sau thời gian chuyển đổi (khi dùng chế độ UTC)",
+    "description": "Chuyển Unix timestamp sang ngày giờ dễ đọc.",
+    "outputOptions": "Tùy chọn hiển thị",
+    "shortDescription": "Đổi Unix timestamp sang ngày",
+    "title": "Chuyển Unix sang ngày",
+    "toolInfo": {
+      "description": "Unix timestamp là thời gian tính bằng giây từ 01/01/1970. Công cụ này chuyển timestamp sang dạng ngày giờ dễ đọc, hỗ trợ cả múi giờ địa phương và UTC.",
+      "title": "Chuyển đổi Unix sang ngày giờ"
+    },
+    "useLocalTime": "Dùng giờ địa phương",
+    "useLocalTimeDescription": "Hiển thị kết quả theo múi giờ hệ thống",
+    "withLabel": "Tùy chọn"
+  },
+  "crontabGuru": {
+    "description": "Tạo và giải thích biểu thức cron. Hữu ích để lập lịch tự động cho hệ thống hoặc ứng dụng.",
+    "shortDescription": "Tạo và hiểu biểu thức cron",
+    "title": "Crontab Guru"
+  },
+  "timeBetweenDates": {
+    "description": "Tính khoảng thời gian giữa hai ngày/giờ. Hiển thị chi tiết theo ngày, giờ, phút, giây.",
+    "endDate": "Ngày kết thúc",
+    "endDateTime": "Ngày & giờ kết thúc",
+    "endTime": "Giờ kết thúc",
+    "endTimezone": "Múi giờ kết thúc",
+    "shortDescription": "Tính thời gian giữa hai ngày",
+    "startDate": "Ngày bắt đầu",
+    "startDateTime": "Ngày & giờ bắt đầu",
+    "startTime": "Giờ bắt đầu",
+    "startTimezone": "Múi giờ bắt đầu",
+    "title": "Khoảng thời gian giữa hai ngày",
+    "toolInfo": {
+      "description": "Tính chính xác độ chênh lệch giữa hai mốc thời gian, hỗ trợ múi giờ khác nhau và chia nhỏ kết quả theo năm, tháng, ngày, giờ, phút, giây.",
+      "title": "Công cụ tính khoảng thời gian"
+    }
+  },
+  "truncateClockTime": {
+    "description": "Rút gọn thời gian bằng cách bỏ giây hoặc phút. Có thể làm tròn theo từng giờ, phút hoặc khoảng tùy chỉnh.",
+    "printDroppedComponents": "In ra phần đã loại bỏ",
+    "shortDescription": "Rút gọn thời gian theo độ chính xác",
+    "timePadding": "Định dạng thời gian",
+    "title": "Rút gọn thời gian",
+    "toolInfo": {
+      "title": "{{title}} là gì?"
+    },
+    "truncateMinutesAndSeconds": "Bỏ phút và giây",
+    "truncateMinutesAndSecondsDescription": "Xóa toàn bộ phần phút và giây",
+    "truncateOnlySeconds": "Bỏ giây",
+    "truncateOnlySecondsDescription": "Chỉ xóa phần giây",
+    "truncationSide": "Kiểu rút gọn",
+    "useZeroPadding": "Luôn hiển thị 2 chữ số",
+    "zeroPaddingDescription": "Buộc giờ/phút/giây luôn đủ hai chữ số",
+    "zeroPrintDescription": "Hiển thị phần bị bỏ thành \"00\"",
+    "zeroPrintTruncatedParts": "Thay phần bị bỏ bằng '00'"
+  }
+}

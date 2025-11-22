@@ -1,0 +1,11 @@
+a {
+  color: #1c76ce;
+}
+
+a:hover {
+  color: #030362;
+}
+
+* {
+  font-family: Quicksand,sans-serif!important;
+}

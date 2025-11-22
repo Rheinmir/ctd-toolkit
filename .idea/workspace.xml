@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b30e2810-c4c1-4aad-b134-794e52cc1c7d" name="Changes" comment="fix(i18n): Correct &quot;hireMe&quot; translation in navbar&#10;&#10;This commit corrects the translation of &quot;hireMe&quot; in the&#10;navigation bar across all supported languages. The order of&#10;the elements was also fixed to be consistent.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/es/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/translation.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="28f4c64d3044df927dc088435164e803e14f8794" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;iib0011&quot;
+    },
+    {
+      &quot;searchQuery&quot;: &quot;filter&quot;,
+      &quot;state&quot;: &quot;OPEN&quot;
+    },
+    {
+      &quot;state&quot;: &quot;OPEN&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts51PkS9&quot;,
+        &quot;number&quot;: 22
+      },
+      &quot;lastSeen&quot;: 1741207144695
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6NiNYl&quot;,
+        &quot;number&quot;: 32
+      },
+      &quot;lastSeen&quot;: 1741209723869
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6Nheyd&quot;,
+        &quot;number&quot;: 31
+      },
+      &quot;lastSeen&quot;: 1741213371410
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6NmRBs&quot;,
+        &quot;number&quot;: 33
+      },
+      &quot;lastSeen&quot;: 1741282429036
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts5zyFTs&quot;,
+        &quot;number&quot;: 15
+      },
+      &quot;lastSeen&quot;: 1741535540953
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6QQB3c&quot;,
+        &quot;number&quot;: 59
+      },
+      &quot;lastSeen&quot;: 1743018960900
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6QMPEg&quot;,
+        &quot;number&quot;: 58
+      },
+      &quot;lastSeen&quot;: 1743019452983
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6QZvRI&quot;,
+        &quot;number&quot;: 61
+      },
+      &quot;lastSeen&quot;: 1743103196866
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6QqPrQ&quot;,
+        &quot;number&quot;: 73
+      },
+      &quot;lastSeen&quot;: 1743265865001
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6Qp5nI&quot;,
+        &quot;number&quot;: 72
+      },
+      &quot;lastSeen&quot;: 1743338472110
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6QsjlS&quot;,
+        &quot;number&quot;: 76
+      },
+      &quot;lastSeen&quot;: 1743352150953
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6Q0JBe&quot;,
+        &quot;number&quot;: 82
+      },
+      &quot;lastSeen&quot;: 1743470267269
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6UE9-x&quot;,
+        &quot;number&quot;: 102
+      },
+      &quot;lastSeen&quot;: 1747171977348
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6XPua_&quot;,
+        &quot;number&quot;: 117
+      },
+      &quot;lastSeen&quot;: 1747929835864
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6XY-mZ&quot;,
+        &quot;number&quot;: 119
+      },
+      &quot;lastSeen&quot;: 1748028108508
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6Xdz4n&quot;,
+        &quot;number&quot;: 120
+      },
+      &quot;lastSeen&quot;: 1748282672214
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6X_zxl&quot;,
+        &quot;number&quot;: 131
+      },
+      &quot;lastSeen&quot;: 1748881279494
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6bhieT&quot;,
+        &quot;number&quot;: 152
+      },
+      &quot;lastSeen&quot;: 1751848489082
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6dOyRk&quot;,
+        &quot;number&quot;: 154
+      },
+      &quot;lastSeen&quot;: 1751849436454
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6cHjNi&quot;,
+        &quot;number&quot;: 153
+      },
+      &quot;lastSeen&quot;: 1751849501498
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6Zs1FN&quot;,
+        &quot;number&quot;: 145
+      },
+      &quot;lastSeen&quot;: 1751849770308
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6bgKi9&quot;,
+        &quot;number&quot;: 150
+      },
+      &quot;lastSeen&quot;: 1751850367300
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6eUKC-&quot;,
+        &quot;number&quot;: 176
+      },
+      &quot;lastSeen&quot;: 1752158748013
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6et6vx&quot;,
+        &quot;number&quot;: 192
+      },
+      &quot;lastSeen&quot;: 1752585709582
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6d36mi&quot;,
+        &quot;number&quot;: 168
+      },
+      &quot;lastSeen&quot;: 1752805763664
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6fnXKf&quot;,
+        &quot;number&quot;: 208
+      },
+      &quot;lastSeen&quot;: 1752862212326
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6rjINx&quot;,
+        &quot;number&quot;: 259
+      },
+      &quot;lastSeen&quot;: 1759434090574
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6qcP13&quot;,
+        &quot;number&quot;: 256
+      },
+      &quot;lastSeen&quot;: 1759434257615
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6ow8QZ&quot;,
+        &quot;number&quot;: 252
+      },
+      &quot;lastSeen&quot;: 1759434340504
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6myVeZ&quot;,
+        &quot;number&quot;: 247
+      },
+      &quot;lastSeen&quot;: 1759434588110
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6i5ZAq&quot;,
+        &quot;number&quot;: 239
+      },
+      &quot;lastSeen&quot;: 1759434599664
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6iiuGd&quot;,
+        &quot;number&quot;: 237
+      },
+      &quot;lastSeen&quot;: 1759434652702
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6gwm8n&quot;,
+        &quot;number&quot;: 230
+      },
+      &quot;lastSeen&quot;: 1759434669914
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6f5JeZ&quot;,
+        &quot;number&quot;: 220
+      },
+      &quot;lastSeen&quot;: 1759434706785
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6ftgWI&quot;,
+        &quot;number&quot;: 217
+      },
+      &quot;lastSeen&quot;: 1759434804548
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6XsHfL&quot;,
+        &quot;number&quot;: 128
+      },
+      &quot;lastSeen&quot;: 1759434870000
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6ec-tz&quot;,
+        &quot;number&quot;: 180
+      },
+      &quot;lastSeen&quot;: 1759434882113
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6fsi5n&quot;,
+        &quot;number&quot;: 216
+      },
+      &quot;lastSeen&quot;: 1759434902813
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6ZkP3F&quot;,
+        &quot;number&quot;: 142
+      },
+      &quot;lastSeen&quot;: 1759434918778
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOMJIfts6qcbuA&quot;,
+        &quot;number&quot;: 257
+      },
+      &quot;lastSeen&quot;: 1759438234107
+    }
+  ]
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/iib0011/omni-tools.git&quot;,
+    &quot;accountId&quot;: &quot;45f8cd51-000f-4ba4-a4c6-c4d96ac9b1e5&quot;
+  }
+}</component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/react-image-crop/dist/index.d.ts" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+    &quot;associatedIndex&quot;: 0
+    }</component>
+  <component name="ProjectId" id="2i6g3WkUxdCURKYvUIJ9LMY5Qsc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Docker.Dockerfile build.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.add-i18n-to-meta.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.locize-upload.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.update-i18n-from-meta.js.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Create transparent PNG.should make png color transparent.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.JoinText Component.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.JoinText Component.should merge text pieces with specified join character.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Vitest.compute function (1).executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.compute function.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.generatePassword.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.mergeText.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.mergeText.should merge lines and preserve blank lines when deleteBlankLines is false.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.mergeText.should merge lines, preserve blank lines and trailing spaces when both deleteBlankLines and deleteTrailingSpaces are false.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.parsePageRanges.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.removeDuplicateLines function.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.removeDuplicateLines function.newlines option.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.removeDuplicateLines function.newlines option.should filter newlines when newlines is set to filter.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.replaceText function (regexp mode).should return the original text when passed an invalid regexp.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.replaceText function.executor&quot;: &quot;Run&quot;,
+    &quot;Vitest.timeBetweenDates.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ibrahima/IdeaProjects/omni-tools&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.i18n:extract.executor&quot;: &quot;Run&quot;,
+    &quot;npm.i18n:pull.executor&quot;: &quot;Run&quot;,
+    &quot;npm.i18n:push.executor&quot;: &quot;Run&quot;,
+    &quot;npm.i18n:sync.executor&quot;: &quot;Run&quot;,
+    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
+    &quot;npm.prebuild.executor&quot;: &quot;Run&quot;,
+    &quot;npm.script:create:tool.executor&quot;: &quot;Run&quot;,
+    &quot;npm.test.executor&quot;: &quot;Run&quot;,
+    &quot;npm.test:e2e.executor&quot;: &quot;Run&quot;,
+    &quot;npm.test:e2e:run.executor&quot;: &quot;Run&quot;,
+    &quot;npm.typecheck.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Ibrahima\\IdeaProjects\\omni-tools\\node_modules\\prettier&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Ibrahima\\IdeaProjects\\omni-tools\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.rename.search.for.js.occurrences&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ibrahima\IdeaProjects\omni-tools" />
+      <recent name="C:\Users\Ibrahima\IdeaProjects\omni-tools\src" />
+      <recent name="C:\Users\Ibrahima\IdeaProjects\omni-tools\public" />
+      <recent name="C:\Users\Ibrahima\IdeaProjects\omni-tools\src\assets" />
+      <recent name="C:\Users\Ibrahima\IdeaProjects\omni-tools\public\assets\fonts\quicksand" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ibrahima\IdeaProjects\omni-tools\@types" />
+      <recent name="C:\Users\Ibrahima\IdeaProjects\omni-tools\src\lib\ghostscript" />
+      <recent name="C:\Users\Ibrahima\IdeaProjects\omni-tools\public\assets" />
+      <recent name="C:\Users\Ibrahima\IdeaProjects\omni-tools\src\pages\tools" />
+      <recent name="C:\Users\Ibrahima\IdeaProjects\omni-tools\src\pages\categories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="LOCIZE_API_KEY" value="a2ac4dc2-d10e-4d35-bcf7-92db87381711" />
+        <env name="VITE_CONTRIBUTOR_MODE" value="true" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="i18n:sync" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="i18n:sync" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="LOCIZE_API_KEY" value="a2ac4dc2-d10e-4d35-bcf7-92db87381711" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:e2e" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:e2e" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="typecheck" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="typecheck" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.test" />
+      <item itemvalue="npm.test:e2e" />
+      <item itemvalue="npm.typecheck" />
+      <item itemvalue="npm.i18n:sync" />
+      <item itemvalue="npm.dev" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.i18n:sync" />
+        <item itemvalue="npm.test:e2e" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.typecheck" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b30e2810-c4c1-4aad-b134-794e52cc1c7d" name="Changes" comment="" />
+      <created>1718816243156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718816243156</updated>
+      <workItem from="1718816244509" duration="13061000" />
+      <workItem from="1718991004992" duration="25000" />
+      <workItem from="1718991057845" duration="85000" />
+      <workItem from="1718991144614" duration="6968000" />
+      <workItem from="1718998317252" duration="8533000" />
+      <workItem from="1719006887776" duration="7000" />
+      <workItem from="1719006951159" duration="2377000" />
+      <workItem from="1719021128819" duration="3239000" />
+      <workItem from="1719083989394" duration="7971000" />
+      <workItem from="1719092003308" duration="14856000" />
+      <workItem from="1719164664347" duration="2033000" />
+      <workItem from="1719166718305" duration="1783000" />
+      <workItem from="1719168519203" duration="17675000" />
+      <workItem from="1719197816332" duration="1453000" />
+      <workItem from="1719273044735" duration="9847000" />
+      <workItem from="1719294110005" duration="3842000" />
+      <workItem from="1719339559458" duration="303000" />
+      <workItem from="1719340295244" duration="772000" />
+      <workItem from="1719363272227" duration="390000" />
+      <workItem from="1719379971872" duration="8943000" />
+      <workItem from="1719464673797" duration="38000" />
+      <workItem from="1719475764139" duration="14903000" />
+      <workItem from="1719492452780" duration="8000" />
+      <workItem from="1719496624579" duration="6148000" />
+      <workItem from="1720542757452" duration="5355000" />
+      <workItem from="1720557527691" duration="3245000" />
+      <workItem from="1720564427492" duration="1523000" />
+      <workItem from="1720613598176" duration="8000" />
+      <workItem from="1720655252208" duration="3975000" />
+      <workItem from="1720661825389" duration="4305000" />
+      <workItem from="1720729165596" duration="3258000" />
+      <workItem from="1720911748039" duration="331000" />
+      <workItem from="1720912096050" duration="3065000" />
+      <workItem from="1740259920741" duration="7742000" />
+      <workItem from="1740270391152" duration="690000" />
+      <workItem from="1740274898695" duration="2231000" />
+      <workItem from="1740295530385" duration="1120000" />
+      <workItem from="1740300354462" duration="1059000" />
+      <workItem from="1740301493702" duration="8924000" />
+      <workItem from="1740318886545" duration="856000" />
+      <workItem from="1740348963270" duration="388000" />
+      <workItem from="1740399426653" duration="627000" />
+      <workItem from="1740459961271" duration="66000" />
+      <workItem from="1740460036909" duration="8299000" />
+      <workItem from="1740490890760" duration="1889000" />
+      <workItem from="1740503199053" duration="4853000" />
+      <workItem from="1740584243965" duration="17000" />
+      <workItem from="1740613094492" duration="9615000" />
+      <workItem from="1740664266923" duration="145000" />
+      <workItem from="1740665190253" duration="496000" />
+      <workItem from="1740670449847" duration="4776000" />
+      <workItem from="1740702343843" duration="657000" />
+      <workItem from="1740788381920" duration="465000" />
+      <workItem from="1740788856134" duration="659000" />
+      <workItem from="1740880919391" duration="4395000" />
+      <workItem from="1740923024259" duration="23000" />
+      <workItem from="1740933006573" duration="3679000" />
+      <workItem from="1741475969294" duration="4215000" />
+      <workItem from="1741494053121" duration="178000" />
+      <workItem from="1741537936314" duration="1294000" />
+      <workItem from="1741539602311" duration="4557000" />
+      <workItem from="1741547560596" duration="1671000" />
+      <workItem from="1741567442768" duration="14127000" />
+      <workItem from="1741971589699" duration="371000" />
+      <workItem from="1743018497879" duration="3895000" />
+      <workItem from="1743047367993" duration="986000" />
+      <workItem from="1743103182313" duration="4264000" />
+      <workItem from="1743348610793" duration="21855000" />
+      <workItem from="1743397561176" duration="25000" />
+      <workItem from="1743458576265" duration="13083000" />
+      <workItem from="1743690613245" duration="77000" />
+      <workItem from="1743691250813" duration="1550000" />
+      <workItem from="1743699386059" duration="11195000" />
+      <workItem from="1743782726563" duration="2444000" />
+      <workItem from="1743811558991" duration="1279000" />
+      <workItem from="1745523972292" duration="3000" />
+      <workItem from="1745687713234" duration="1747000" />
+      <workItem from="1745775228478" duration="1221000" />
+      <workItem from="1745835676024" duration="68000" />
+      <workItem from="1747171958176" duration="1105000" />
+      <workItem from="1747217211469" duration="4000" />
+      <workItem from="1747929815472" duration="843000" />
+      <workItem from="1748026506667" duration="2536000" />
+      <workItem from="1748282636141" duration="478000" />
+      <workItem from="1749047510481" duration="879000" />
+      <workItem from="1751846528195" duration="4358000" />
+      <workItem from="1752070315115" duration="19000" />
+      <workItem from="1752071020011" duration="1599000" />
+      <workItem from="1752077170501" duration="4261000" />
+      <workItem from="1752127185450" duration="1168000" />
+      <workItem from="1752157409587" duration="2415000" />
+      <workItem from="1752403829295" duration="13253000" />
+      <workItem from="1752493585622" duration="11629000" />
+      <workItem from="1752507105323" duration="9008000" />
+      <workItem from="1752875788332" duration="3566000" />
+      <workItem from="1753099267173" duration="21000" />
+      <workItem from="1753123130080" duration="4054000" />
+      <workItem from="1753201599796" duration="4449000" />
+      <workItem from="1753206561770" duration="119000" />
+      <workItem from="1753206717510" duration="3599000" />
+      <workItem from="1759497758761" duration="1012000" />
+      <workItem from="1759502144651" duration="1106000" />
+    </task>
+    <task id="LOCAL-00210" summary="feat: convert to jpg">
+      <option name="closed" value="true" />
+      <created>1752026153328</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1752026153328</updated>
+    </task>
+    <task id="LOCAL-00211" summary="feat: edit image">
+      <option name="closed" value="true" />
+      <created>1752032092273</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1752032092274</updated>
+    </task>
+    <task id="LOCAL-00212" summary="fix: favicons">
+      <option name="closed" value="true" />
+      <created>1752071147050</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1752071147050</updated>
+    </task>
+    <task id="LOCAL-00213" summary="chore: examples button visibility">
+      <option name="closed" value="true" />
+      <created>1752079671580</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1752079671580</updated>
+    </task>
+    <task id="LOCAL-00214" summary="feat: pdf editor">
+      <option name="closed" value="true" />
+      <created>1752079879005</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1752079879005</updated>
+    </task>
+    <task id="LOCAL-00215" summary="chore: style link">
+      <option name="closed" value="true" />
+      <created>1752080307348</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1752080307349</updated>
+    </task>
+    <task id="LOCAL-00216" summary="refactor: PDF editor">
+      <option name="closed" value="true" />
+      <created>1752157851370</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1752157851371</updated>
+    </task>
+    <task id="LOCAL-00217" summary="docs: edit pdf meta">
+      <option name="closed" value="true" />
+      <created>1752158119802</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1752158119802</updated>
+    </task>
+    <task id="LOCAL-00218" summary="fix: misc">
+      <option name="closed" value="true" />
+      <created>1752402313190</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1752402313191</updated>
+    </task>
+    <task id="LOCAL-00219" summary="fix: i18n tsc">
+      <option name="closed" value="true" />
+      <created>1752408068771</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1752408068771</updated>
+    </task>
+    <task id="LOCAL-00220" summary="fix: i18n tsc">
+      <option name="closed" value="true" />
+      <created>1752412149075</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1752412149075</updated>
+    </task>
+    <task id="LOCAL-00221" summary="fix: tsc">
+      <option name="closed" value="true" />
+      <created>1752422405814</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1752422405814</updated>
+    </task>
+    <task id="LOCAL-00222" summary="chore: locize upload">
+      <option name="closed" value="true" />
+      <created>1752423460080</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1752423460080</updated>
+    </task>
+    <task id="LOCAL-00223" summary="chore: i18n in meta">
+      <option name="closed" value="true" />
+      <created>1752493634215</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1752493634215</updated>
+    </task>
+    <task id="LOCAL-00224" summary="chore: add i18n to meta script">
+      <option name="closed" value="true" />
+      <created>1752497705915</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1752497705915</updated>
+    </task>
+    <task id="LOCAL-00225" summary="fix: tsc">
+      <option name="closed" value="true" />
+      <created>1752501110885</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1752501110885</updated>
+    </task>
+    <task id="LOCAL-00226" summary="chore: bundle translations at build time">
+      <option name="closed" value="true" />
+      <created>1752503206380</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1752503206380</updated>
+    </task>
+    <task id="LOCAL-00227" summary="fix: tsc">
+      <option name="closed" value="true" />
+      <created>1752503720380</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1752503720380</updated>
+    </task>
+    <task id="LOCAL-00228" summary="chore: remove unnecessary">
+      <option name="closed" value="true" />
+      <created>1752503770543</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1752503770543</updated>
+    </task>
+    <task id="LOCAL-00229" summary="chore: saveMissing">
+      <option name="closed" value="true" />
+      <created>1752505593881</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1752505593881</updated>
+    </task>
+    <task id="LOCAL-00230" summary="fix: translation related behaviors">
+      <option name="closed" value="true" />
+      <created>1752512678963</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1752512678963</updated>
+    </task>
+    <task id="LOCAL-00231" summary="feat: password generator to test translation">
+      <option name="closed" value="true" />
+      <created>1752514466233</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1752514466233</updated>
+    </task>
+    <task id="LOCAL-00232" summary="docs: translation docs">
+      <option name="closed" value="true" />
+      <created>1752515675314</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1752515675314</updated>
+    </task>
+    <task id="LOCAL-00233" summary="fix: translations">
+      <option name="closed" value="true" />
+      <created>1752585351036</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1752585351036</updated>
+    </task>
+    <task id="LOCAL-00234" summary="chore: delete unused i18n json files">
+      <option name="closed" value="true" />
+      <created>1752585829343</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1752585829343</updated>
+    </task>
+    <task id="LOCAL-00235" summary="fix: create-tool.mjs to use i18n object">
+      <option name="closed" value="true" />
+      <created>1752586932190</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1752586932190</updated>
+    </task>
+    <task id="LOCAL-00236" summary="fix: show Use this tool only if medium breakpoint">
+      <option name="closed" value="true" />
+      <created>1752591387066</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1752591387066</updated>
+    </task>
+    <task id="LOCAL-00237" summary="chore: sync locales">
+      <option name="closed" value="true" />
+      <created>1752596436284</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1752596436284</updated>
+    </task>
+    <task id="LOCAL-00238" summary="fix: i18n">
+      <option name="closed" value="true" />
+      <created>1752600606853</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1752600606853</updated>
+    </task>
+    <task id="LOCAL-00239" summary="fix: i18n">
+      <option name="closed" value="true" />
+      <created>1752601115085</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1752601115085</updated>
+    </task>
+    <task id="LOCAL-00240" summary="chore: remove prebuild">
+      <option name="closed" value="true" />
+      <created>1752601506346</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1752601506346</updated>
+    </task>
+    <task id="LOCAL-00241" summary="fix: broken translations">
+      <option name="closed" value="true" />
+      <created>1752601987121</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1752601987121</updated>
+    </task>
+    <task id="LOCAL-00242" summary="fix: i18n tsc">
+      <option name="closed" value="true" />
+      <created>1752604958929</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1752604958929</updated>
+    </task>
+    <task id="LOCAL-00243" summary="chore: i18n pull dutch">
+      <option name="closed" value="true" />
+      <created>1752605940802</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1752605940802</updated>
+    </task>
+    <task id="LOCAL-00244" summary="chore: sync locize">
+      <option name="closed" value="true" />
+      <created>1752805853344</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1752805853344</updated>
+    </task>
+    <task id="LOCAL-00245" summary="feat: language browser detection">
+      <option name="closed" value="true" />
+      <created>1753124389709</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1753124389709</updated>
+    </task>
+    <task id="LOCAL-00246" summary="fix: misc">
+      <option name="closed" value="true" />
+      <created>1753206794968</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1753206794968</updated>
+    </task>
+    <task id="LOCAL-00247" summary="chore: show only necessary tags on a category">
+      <option name="closed" value="true" />
+      <created>1753207817041</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1753207817041</updated>
+    </task>
+    <task id="LOCAL-00248" summary="chore: CATEGORIES_USER_TYPES_MAPPINGS">
+      <option name="closed" value="true" />
+      <created>1753209484099</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1753209484099</updated>
+    </task>
+    <task id="LOCAL-00249" summary="chore: translate userTypes">
+      <option name="closed" value="true" />
+      <created>1753210033390</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1753210033390</updated>
+    </task>
+    <task id="LOCAL-00250" summary="feat: remove temperature conversion from generic-calc&#10;&#10;This commit removes the temperature conversion tool from the&#10;generic-calc tool. This is because the tool was causing issues.&#10;&#10;The following files were modified:&#10;- src/pages/tools/number/generic-calc/data/index.ts&#10;- src/pages/tools/number/generic-calc/data/temperature.ts&#10;- package.json&#10;- .idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1759439927012</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1759439927012</updated>
+    </task>
+    <task id="LOCAL-00251" summary="feat: Remove onnxruntime-web dependency (main)&#10;&#10;This commit removes the onnxruntime-web package&#10;from package.json.&#10;```">
+      <option name="closed" value="true" />
+      <created>1759441368519</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1759441368519</updated>
+    </task>
+    <task id="LOCAL-00252" summary="fix: onnxruntime-web version">
+      <option name="closed" value="true" />
+      <created>1759441908841</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1759441908841</updated>
+    </task>
+    <task id="LOCAL-00253" summary="feat: Upgrade Node.js versions in CI (main)&#10;&#10;This commit updates the Node.js versions used in the CI&#10;workflows to version 20. This ensures that the CI&#10;environment uses a more up-to-date and supported version&#10;of Node.js.">
+      <option name="closed" value="true" />
+      <created>1759442128298</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1759442128299</updated>
+    </task>
+    <task id="LOCAL-00254" summary="feat: Upgrade onnxruntime-web and onnxruntime-common (main)&#10;&#10;Upgrades onnxruntime-web and onnxruntime-common to versions&#10;1.23.0. This includes updates to dependencies and related&#10;packages.">
+      <option name="closed" value="true" />
+      <created>1759442775014</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1759442775014</updated>
+    </task>
+    <task id="LOCAL-00255" summary="chore: Replace &quot;Buy me a coffee&quot; with &quot;Hire me&quot; (main)&#10;&#10;This commit replaces the &quot;Buy me a coffee&quot; button with a&#10;&quot;Hire me&quot; button in the navbar. It also updates the&#10;corresponding translation in the `en/translation.json` file.&#10;The icon has been changed to a job search icon, and the&#10;link points to a Google Drive document.">
+      <option name="closed" value="true" />
+      <created>1759502472647</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1759502472647</updated>
+    </task>
+    <task id="LOCAL-00256" summary="feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following changes:&#10;&#10;- Updated the workspace configuration in .idea/workspace.xml to&#10;  reflect the recent npm script execution.&#10;- Modified the English translation file (translation.json) by&#10;  reordering the &quot;navbar&quot; keys.">
+      <option name="closed" value="true" />
+      <created>1759502707923</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1759502707923</updated>
+    </task>
+    <task id="LOCAL-00257" summary="feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following changes:&#10;&#10;- Updated the workspace configuration in .idea/workspace.xml to&#10;  reflect the recent npm script execution.&#10;- Modified the English translation file (translation.json) by&#10;  reordering the &quot;navbar&quot; keys.&#10;- Updated translation files in other languages with &quot;hireMe&quot;.">
+      <option name="closed" value="true" />
+      <created>1759503018626</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1759503018627</updated>
+    </task>
+    <task id="LOCAL-00258" summary="fix(i18n): Correct &quot;hireMe&quot; translation in navbar&#10;&#10;This commit corrects the translation of &quot;hireMe&quot; in the&#10;navigation bar across all supported languages. The order of&#10;the elements was also fixed to be consistent.">
+      <option name="closed" value="true" />
+      <created>1759503051936</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1759503051936</updated>
+    </task>
+    <option name="localTasksCounter" value="259" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/examples" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: Upgrade Node.js versions in CI (main)&#10;&#10;This commit updates the Node.js versions used in the CI&#10;workflows to version 20. This ensures that the CI&#10;environment uses a more up-to-date and supported version&#10;of Node.js." />
+    <MESSAGE value="feat" />
+    <MESSAGE value="feat: Upgrade onnxruntime-web and onnxruntime-common (main)&#10;&#10;Up" />
+    <MESSAGE value="feat: Upgrade onnxruntime-web and onnxruntime-common (main)&#10;&#10;Upgrades onnxruntime-web and onnxruntime-common to versions&#10;1" />
+    <MESSAGE value="feat: Upgrade onnxruntime-web and onnxruntime-common (main)&#10;&#10;Upgrades onnxruntime-web and onnxruntime-common to versions&#10;1.23.0. This includes updates to dependencies and related&#10;packages.&#10;" />
+    <MESSAGE value="feat: Upgrade onnxruntime-web and onnxruntime-common (main)&#10;&#10;Upgrades onnxruntime-web and onnxruntime-common to versions&#10;1.23.0. This includes updates to dependencies and related&#10;packages." />
+    <MESSAGE value="```&#10;feat: Replace &quot;Buy me a coffee&quot; with &quot;Hire me&quot; (main)&#10;&#10;" />
+    <MESSAGE value="```&#10;feat: Replace &quot;Buy me a coffee&quot; with &quot;Hire me&quot; (main)&#10;&#10;This commit replaces the &quot;Buy me a coffee&quot; button with a&#10;&quot;Hire" />
+    <MESSAGE value="```&#10;feat: Replace &quot;Buy me a coffee&quot; with &quot;Hire me&quot; (main)&#10;&#10;This commit replaces the &quot;Buy me a coffee&quot; button with a&#10;&quot;Hire me&quot; button in the navbar. It also updates the&#10;corresponding translation in the `en/translation.json` file.&#10;The icon has been changed to a" />
+    <MESSAGE value="```&#10;feat: Replace &quot;Buy me a coffee&quot; with &quot;Hire me&quot; (main)&#10;&#10;This commit replaces the &quot;Buy me a coffee&quot; button with a&#10;&quot;Hire me&quot; button in the navbar. It also updates the&#10;corresponding translation in the `en/translation.json` file.&#10;The icon has been changed to a job search icon, and the&#10;link points to a Google Drive document.&#10;```" />
+    <MESSAGE value="chore: Replace &quot;Buy me a coffee&quot; with &quot;Hire me&quot; (main)&#10;&#10;This commit replaces the &quot;Buy me a coffee&quot; button with a&#10;&quot;Hire me&quot; button in the navbar. It also updates the&#10;corresponding translation in the `en/translation.json` file.&#10;The icon has been changed to a job search icon, and the&#10;link points to a Google Drive document." />
+    <MESSAGE value="```&#10;feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following changes:" />
+    <MESSAGE value="```&#10;feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following changes:&#10;&#10;- Updated the workspace configuration in .idea/workspace.xml to&#10;  reflect" />
+    <MESSAGE value="```&#10;feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following changes:&#10;&#10;- Updated the workspace configuration in .idea/workspace.xml to&#10;  reflect the recent npm script execution.&#10;- Modified the English translation file (translation.json) by&#10;  reordering the &quot;navbar&quot; keys.&#10;```&#10;" />
+    <MESSAGE value="feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following changes:&#10;&#10;- Updated the workspace configuration in .idea/workspace.xml to&#10;  reflect the recent npm script execution.&#10;- Modified the English translation file (translation.json) by&#10;  reordering the &quot;navbar&quot; keys." />
+    <MESSAGE value="```&#10;feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following" />
+    <MESSAGE value="```&#10;feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following changes:&#10;&#10;- Updated the workspace configuration in .idea/workspace.xml to&#10;  " />
+    <MESSAGE value="```&#10;feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following changes:&#10;&#10;- Updated the workspace configuration in .idea/workspace.xml to&#10;  reflect the recent npm script execution.&#10;- Modified the English translation file (translation.json) by&#10;  reordering the &quot;navbar&quot; keys.&#10;-" />
+    <MESSAGE value="```&#10;feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following changes:&#10;&#10;- Updated the workspace configuration in .idea/workspace.xml to&#10;  reflect the recent npm script execution.&#10;- Modified the English translation file (translation.json) by&#10;  reordering the &quot;navbar&quot; keys.&#10;- Updated translation files in other languages with &quot;hireMe&quot;.&#10;```&#10;" />
+    <MESSAGE value="feat: Update workspace and translation files (main)&#10;&#10;This commit includes the following changes:&#10;&#10;- Updated the workspace configuration in .idea/workspace.xml to&#10;  reflect the recent npm script execution.&#10;- Modified the English translation file (translation.json) by&#10;  reordering the &quot;navbar&quot; keys.&#10;- Updated translation files in other languages with &quot;hireMe&quot;." />
+    <MESSAGE value="```" />
+    <MESSAGE value="```&#10;fix(i18n): Correct &quot;hireMe&quot; translation in navbar" />
+    <MESSAGE value="```&#10;fix(i18n): Correct &quot;hireMe&quot; translation in navbar&#10;&#10;This commit corrects the translation of &quot;hireMe&quot; in the&#10;navigation bar" />
+    <MESSAGE value="```&#10;fix(i18n): Correct &quot;hireMe&quot; translation in navbar&#10;&#10;This commit corrects the translation of &quot;hireMe&quot; in the&#10;navigation bar across all supported languages. The order of&#10;the elements was also fixed to be consistent.&#10;```&#10;" />
+    <MESSAGE value="fix(i18n): Correct &quot;hireMe&quot; translation in navbar&#10;&#10;This commit corrects the translation of &quot;hireMe&quot; in the&#10;navigation bar across all supported languages. The order of&#10;the elements was also fixed to be consistent." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(i18n): Correct &quot;hireMe&quot; translation in navbar&#10;&#10;This commit corrects the translation of &quot;hireMe&quot; in the&#10;navigation bar across all supported languages. The order of&#10;the elements was also fixed to be consistent." />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

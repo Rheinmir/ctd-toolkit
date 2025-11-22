@@ -1,0 +1,119 @@
+{
+  "compressPdf": {
+    "compressedFileSize": "Kích thước sau nén",
+    "compressingPdf": "Đang nén PDF...",
+    "compressionLevel": "Mức độ nén",
+    "compressionSettings": "Thiết lập nén",
+    "description": "Giảm dung lượng tệp PDF mà vẫn giữ chất lượng bằng Ghostscript",
+    "errorCompressingPdf": "Không thể nén PDF: {{error}}",
+    "errorReadingPdf": "Không thể đọc tệp PDF. Hãy đảm bảo rằng đây là tệp PDF hợp lệ.",
+    "fileSize": "Kích thước gốc",
+    "highCompression": "Nén cao",
+    "highCompressionDescription": "Giảm tối đa dung lượng nhưng có thể giảm chất lượng",
+    "inputTitle": "PDF đầu vào",
+    "longDescription": "Nén PDF trực tiếp trong trình duyệt bằng Ghostscript. Tệp của bạn không bao giờ rời khỏi thiết bị, hoàn toàn riêng tư. Giảm dung lượng để gửi email, upload hoặc tiết kiệm bộ nhớ. Chạy bằng công nghệ WebAssembly.",
+    "lowCompression": "Nén thấp",
+    "lowCompressionDescription": "Giảm dung lượng nhẹ, gần như không giảm chất lượng",
+    "mediumCompression": "Nén vừa",
+    "mediumCompressionDescription": "Cân bằng giữa dung lượng và chất lượng",
+    "pages": "Số trang",
+    "resultTitle": "PDF đã nén",
+    "shortDescription": "Nén PDF an toàn ngay trong trình duyệt",
+    "title": "Nén PDF"
+  },
+  "editor": {
+    "description": "Trình chỉnh sửa PDF nâng cao với chức năng ghi chú, điền form, highlight và xuất file. Chỉnh sửa PDF trực tiếp trên trình duyệt với các công cụ chuyên nghiệp như chèn văn bản, vẽ, highlight, ký tên và điền biểu mẫu.",
+    "shortDescription": "Chỉnh sửa PDF với công cụ annotation và ký nâng cao",
+    "title": "Trình chỉnh sửa PDF"
+  },
+  "merge": {
+    "inputTitle": "PDF đầu vào",
+    "loadingText": "Đang trích xuất trang",
+    "resultTitle": "PDF đã gộp",
+    "toolInfo": {
+      "description": "Công cụ này cho phép bạn gộp nhiều tệp PDF thành một tài liệu duy nhất. Chỉ cần tải lên các tệp PDF cần gộp và công cụ sẽ tự kết hợp tất cả các trang thành một tệp duy nhất.",
+      "title": "Cách dùng công cụ gộp PDF"
+    }
+  },
+  "mergePdf": {
+    "description": "Gộp nhiều tệp PDF thành một tài liệu.",
+    "inputTitle": "Các PDF đầu vào",
+    "mergingPdfs": "Đang gộp PDF",
+    "pdfOptions": "Tùy chọn PDF",
+    "resultTitle": "PDF đã gộp",
+    "shortDescription": "Gộp nhiều tệp PDF thành một",
+    "sortByFileName": "Sắp xếp theo tên tệp",
+    "sortByFileNameDescription": "Sắp xếp PDF theo thứ tự bảng chữ cái",
+    "sortByUploadOrder": "Sắp xếp theo thứ tự tải lên",
+    "sortByUploadOrderDescription": "Giữ nguyên thứ tự tải lên",
+    "title": "Gộp PDF",
+    "toolInfo": {
+      "description": "Công cụ này cho phép gộp nhiều PDF thành một tài liệu duy nhất. Bạn có thể chọn cách sắp xếp PDF trước khi gộp.",
+      "title": "Gộp tệp PDF"
+    }
+  },
+  "pdfToEpub": {
+    "description": "Chuyển đổi PDF sang EPUB để đọc tốt hơn trên thiết bị e-reader.",
+    "shortDescription": "Chuyển PDF sang EPUB",
+    "title": "PDF sang EPUB"
+  },
+  "pdfToPng": {
+    "description": "Chuyển đổi PDF thành các hình PNG.",
+    "longDescription": "Tải PDF lên và chuyển từng trang thành ảnh PNG chất lượng cao ngay trong trình duyệt. Hoàn hảo để trích xuất nội dung hình ảnh hoặc chia sẻ từng trang. Không tải dữ liệu lên máy chủ, mọi thứ xử lý cục bộ.",
+    "shortDescription": "Chuyển PDF thành ảnh PNG",
+    "title": "PDF sang PNG"
+  },
+  "convertToPdf": {
+    "title": "Ảnh sang PDF",
+    "description": "Chuyển đổi nhiều định dạng ảnh (PNG, GIF, JPG, TIF, PSD, SVG, WEBP, HEIC, RAW) sang PDF, kèm tùy chọn co giãn ảnh và chọn hướng trang.",
+    "shortDescription": "Chuyển ảnh sang PDF với tùy chọn co giãn và xoay"
+  },
+  "protectPdf": {
+    "description": "Thêm mật khẩu bảo vệ cho PDF ngay trên trình duyệt.",
+    "shortDescription": "Đặt mật khẩu bảo vệ PDF",
+    "title": "Bảo vệ PDF"
+  },
+  "rotatePdf": {
+    "allPagesWillBeRotated": "Tất cả {{count}} trang sẽ được xoay",
+    "angleOptions": {
+      "clockwise90": "90° Xoay phải",
+      "counterClockwise270": "270° (90° xoay trái)",
+      "upsideDown180": "180° (Lật ngược)"
+    },
+    "applyToAllPages": "Áp dụng cho tất cả trang",
+    "description": "Xoay các trang PDF.",
+    "inputTitle": "PDF đầu vào",
+    "longDescription": "Thay đổi hướng trang của PDF bằng cách xoay 90°, 180° hoặc 270°. Hữu ích để sửa tài liệu scan lệch hoặc chuẩn bị PDF cho in ấn.",
+    "pageRangesDescription": "Nhập số trang hoặc khoảng trang, cách nhau bằng dấu phẩy (ví dụ: 1,3,5-7)",
+    "pageRangesPlaceholder": "ví dụ: 1,5-8",
+    "pagesWillBeRotated": "{{count}} trang sẽ được xoay",
+    "pdfPageCount": "PDF có {{count}} trang",
+    "resultTitle": "PDF đã xoay",
+    "rotatingPages": "Đang xoay trang",
+    "rotationAngle": "Góc xoay",
+    "rotationSettings": "Thiết lập xoay",
+    "shortDescription": "Xoay các trang PDF",
+    "title": "Xoay PDF",
+    "toolInfo": {
+      "description": "Công cụ cho phép xoay các trang PDF. Có thể xoay toàn bộ hoặc xoay từng trang riêng lẻ bằng cách nhập số trang. Hỗ trợ góc xoay 90°, 180°, 270°.",
+      "title": "Cách sử dụng công cụ xoay PDF"
+    }
+  },
+  "splitPdf": {
+    "description": "Tách các trang cụ thể từ PDF.",
+    "extractingPages": "Đang tách trang",
+    "inputTitle": "PDF đầu vào",
+    "pageExtractionPreview": "{{count}} trang sẽ được tách",
+    "pageRangesDescription": "Nhập số trang hoặc khoảng trang, cách nhau bằng dấu phẩy (ví dụ: 1,3,5-7)",
+    "pageRangesPlaceholder": "ví dụ: 1,5-8",
+    "pageSelection": "Chọn trang",
+    "pdfPageCount": "PDF có {{count}} trang",
+    "resultTitle": "PDF đã tách",
+    "shortDescription": "Tách trang cụ thể từ PDF",
+    "title": "Tách PDF",
+    "toolInfo": {
+      "description": "Công cụ này cho phép bạn tách các trang riêng lẻ hoặc theo khoảng từ một tệp PDF.",
+      "title": "Tách PDF"
+    }
+  }
+}
