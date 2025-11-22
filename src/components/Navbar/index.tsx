@@ -111,17 +111,17 @@ const Navbar: React.FC<NavbarProps> = ({
             ? 'ic:round-light-mode'
             : 'ic:round-contrast'
       }
-    />,
-    <Icon
-      onClick={() => window.open('https://discord.gg', '_blank')}
-      style={{ cursor: 'pointer' }}
-      fontSize={30}
-      icon={'ic:baseline-discord'}
-    />,
+    // />,
+    // <Icon
+    //   onClick={() => window.open('https://discord.gg', '_blank')}
+    //   style={{ cursor: 'pointer' }}
+    //   fontSize={30}
+    //   icon={'ic:baseline-discord'}
+    // />,
     // <Button
     //   onClick={() => {
     //     window.open(
-    //       'https://drive.google.com/file/d/1-r9-rDYnDJic9dnDywKTAsueehIAVp5F/view?usp=sharing',
+    //       '',
     //       '_blank'
     //     );
     //   }}
