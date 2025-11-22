@@ -111,17 +111,17 @@ const Navbar: React.FC<NavbarProps> = ({
             ? 'ic:round-light-mode'
             : 'ic:round-contrast'
       }
-    // />,
-    // <Icon
-    //   onClick={() => window.open('https://discord.gg', '_blank')}
-    //   style={{ cursor: 'pointer' }}
-    //   fontSize={30}
-    //   icon={'ic:baseline-discord'}
-    // />,
+    />,
+    <Icon
+      onClick={() => window.open('https://teams.microsoft.com/v2/', '_blank')}
+      style={{ cursor: 'pointer' }}
+      fontSize={30}
+      icon={'fluent-color:chat-bubbles-question-16'}
+    />,
     // <Button
     //   onClick={() => {
     //     window.open(
-    //       '',
+    //       'https://discord.gg',
     //       '_blank'
     //     );
     //   }}
