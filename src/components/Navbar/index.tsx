@@ -116,7 +116,7 @@ const Navbar: React.FC<NavbarProps> = ({
       onClick={() => window.open('https://teams.microsoft.com/v2/', '_blank')}
       style={{ cursor: 'pointer' }}
       fontSize={30}
-      icon={'fluent-color:chat-bubbles-question-16'}
+      icon={'icon-[fa--commenting]'}
     />,
     // <Button
     //   onClick={() => {
